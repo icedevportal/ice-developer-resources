@@ -20,11 +20,11 @@ module.exports = {
 
 ```
 
+* Deploy: The deploy scripts should already be there in _<mark style="color:blue;">scripts/deploy.js</mark>_. So please run
 
-
-
-
-
+```
+npx hardhat run scripts/deploy.js --network testnet
+```
 
 
 
