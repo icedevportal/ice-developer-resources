@@ -1,7 +1,7 @@
 ---
 description: >-
   This article will show you how to interact with recently deployed smart
-  contract on ice using truffl
+  contract on ice using truffle
 ---
 
 # Interact with contracts using truffle
