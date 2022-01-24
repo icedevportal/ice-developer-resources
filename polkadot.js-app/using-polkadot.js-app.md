@@ -19,6 +19,6 @@ Now you are ready to query and interact with the ICE testnet blockchain
 [making-evm-rpc-calls.md](making-evm-rpc-calls.md)
 {% endcontent-ref %}
 
-{% content-ref url="advance.md" %}
-[advance.md](advance.md)
+{% content-ref url="advanced.md" %}
+[advanced.md](advanced.md)
 {% endcontent-ref %}
