@@ -20,5 +20,5 @@
 
 ***
 
-* [Faucet](faucet.md)
 * [Accounts Mapping](accounts-mapping.md)
+* [Faucet](faucet.md)
