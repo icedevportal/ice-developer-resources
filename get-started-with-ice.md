@@ -19,8 +19,6 @@ The documentation corresponding contains details for the RPC - HTTP, WSS endpoin
 | **Chain ID**     | 553                                                                |
 | **Symbol**       | ICZ                                                                |
 | **EVM RPC**      | https://frost.icenetwork.io:5545                                   |
-
-
 {% endtab %}
 
 {% tab title="Arctic Network" %}
@@ -60,6 +58,10 @@ The documentation corresponding contains details for the RPC - HTTP, WSS endpoin
 {% endtab %}
 {% endtabs %}
 
+{% hint style="info" %}
+Only Frost Testnet is currently live, the Snow Testnet is WIP.
+{% endhint %}
+
 ## QuickStart
 
 For the web3.js library, you can create a local Web3 instance and set the provider to connect to ICE (both HTTP and WS are supported):
@@ -95,7 +97,7 @@ If you already have MetaMask installed, you can easily connect MetaMask to ICE:
 
 If you want to connect MetaMask by providing the network information, you can use the following data:
 
-* Network Name: `Ice`
-* RPC URL: `https://ice.icenetwork.io`
-* ChainID: `550` (hex: `0x226`)
-* Symbol (Optional):`ICY`
+* Network Name: `Frost`
+* RPC URL: `https://frost.icenetwork.io`
+* ChainID: `553` (hex: `0x226`)
+* Symbol (Optional):`ICZ`
