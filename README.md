@@ -26,4 +26,3 @@ Just paste the following command in the channel:
 !send 5CiPPseXPECbkjWCa6MnjNokrgYjMqmKndv2rSnekmSK2DjL
 ```
 
-#### Let's get started deploying dapps on ICE testnode.
