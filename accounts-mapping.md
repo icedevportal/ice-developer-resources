@@ -4,7 +4,7 @@ description: Ethereum - Substrate account Mapping
 
 # Accounts Mapping
 
-Frontier's EVM pallet enables the Ethereum EVM capabilities on a native Substrate chain. To make use of EVM similar to any EVM-based blockchain, one should understand how an Ethereum account is mapped relative to the Substrate chain.
+EVM pallet enables the Ethereum EVM capabilities on a native Substrate chain. To make use of EVM similar to any EVM-based blockchain, one should understand how an Ethereum account is mapped relative to the Substrate chain.
 
 ### Account Mapping
 
