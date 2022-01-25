@@ -35,7 +35,7 @@ You will get output similar to this:
 ![](<../../.gitbook/assets/image (2).png>)
 
 {% hint style="info" %}
-NOTE: We initially pre-minted 1000 tokens so we can transfer upto 1000 token with minting another token
+NOTE: We initially pre-minted 1000 tokens so we can transfer upto 1000 token without minting another token
 {% endhint %}
 
 
