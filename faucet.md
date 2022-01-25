@@ -2,9 +2,13 @@
 
 
 
-### Funding Substrate (or) Ethereum account with ICY Testnet
+### Funding Substrate account with ICZ Testnet
 
-This guide explains how to fund your Substrate & Ethereum account with ICY tokens to interact and transact with Testnet or the EVM
+This guide explains how to fund your Substrate & Ethereum account with ICZ tokens to interact and transact with Testnet or the EVM
+
+{% hint style="info" %}
+The network token for ICE will be ICY, but the Testnet denotes it as ICZ and can change in the future
+{% endhint %}
 
 #### Pre-requisite
 
@@ -19,14 +23,14 @@ This requires one to hold the private key to the substrate account or the Ethere
 | ----------- | ---------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
 | ICE-Testnet | Join this [Discord](https://discord.gg/S24rYCa5) link to request funds | <p>In the <code>dev-ice-faucet</code> guild,<br>type in <code>!send &#x3C;substrate/Ethereum address></code> &#x26; hit send</p> |
 
-* Requesting address will be provisioned with 10 ICY tokens and a successful response.
+* Requesting address will be provisioned with 10 ICZ tokens and a successful response.
 * Users will have to wait for 6 hours between each request.
 
 ### Usage/Examples
 
 Following commands use a sample account number, replace it with your own account to which you hold the private key.
 
-**Funding Substrate account with ICY**
+**Funding Substrate account with ICZ**
 
 Example command for valid ss58 account address
 
@@ -34,7 +38,7 @@ Example command for valid ss58 account address
 !send 5HWKSRyhAVnwioKWFZS3mvLQtqRc8Z2PsHfQL69tg4tJgqyC
 ```
 
-**Funding Ethereum account with ICY**
+**Funding Ethereum account with ICZ**
 
 Example command for valid Ethereum address
 
