@@ -20,6 +20,6 @@
 
 ***
 
-* [Get Started with ICE](get-started-with-ice.md)
+* [Network Endpoints](network-endpoints.md)
 * [Accounts Mapping](accounts-mapping.md)
 * [Faucet](faucet.md)

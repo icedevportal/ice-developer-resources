@@ -2,7 +2,7 @@
 description: API and free RPC WebSocket endpoints for the ICE community
 ---
 
-# Get Started with ICE
+# Network Endpoints
 
 ## Network Details
 
@@ -64,40 +64,40 @@ Only Frost Testnet is currently live, the Snow Testnet is WIP.
 
 ## QuickStart
 
-For the web3.js library, you can create a local Web3 instance and set the provider to connect to ICE (both HTTP and WS are supported):
+For the web3.js library, you can create a local Web3 instance and set the provider to connect to Frost (both HTTP and WS are supported):
 
 ```
 const Web3 = require('web3'); // Load Web3 library
-// Create local Web3 instance - set ICE as provider
-const web3 = new Web3("https://ice.icenetwork.io")
+// Create local Web3 instance - set Frost as provider
+const web3 = new Web3("https://frost.icenetwork.io")
 ```
 
-For the ethers.js library, define the provider by using `ethers.providers.StaticJsonRpcProvider(providerURL, {object})` and setting the provider URL to ICE:
+For the ethers.js library, define the provider by using `ethers.providers.StaticJsonRpcProvider(providerURL, {object})` and setting the provider URL to Frost:
 
 ```
 const ethers = require('ethers');
 
-const providerURL = "https://ice.icenetwork.io";
+const providerURL = "https://frost.icenetwork.io";
 // Define Provider
 const provider = new ethers.providers.StaticJsonRpcProvider(providerURL, {
-    chainId: 550,
-    name: 'ice'
+    chainId: 553,
+    name: 'frost'
 });
 ```
 
-Any Ethereum wallet should be able to generate a valid address for ICE Networks (for example, [MetaMask](https://metamask.io)).
+Any Ethereum wallet should be able to generate a valid address for Frost Network (for example, [MetaMask](https://metamask.io)).
 
 ## Connect to Metamask
 
-If you already have MetaMask installed, you can easily connect MetaMask to ICE:
+If you already have MetaMask installed, you can easily connect MetaMask to Frost:
 
 {% hint style="info" %}
-**Note:** MetaMask will popup asking for permission to add ICE as a custom network. Once you approve permissions, MetaMask will switch your current network to ICE.
+**Note:** MetaMask will popup asking for permission to add Frost as a custom network. Once you approve permissions, MetaMask will switch your current network to Frost.
 {% endhint %}
 
 If you want to connect MetaMask by providing the network information, you can use the following data:
 
 * Network Name: `Frost`
 * RPC URL: `https://frost.icenetwork.io`
-* ChainID: `553` (hex: `0x226`)
+* ChainID: `553` (hex: `0x229`)
 * Symbol (Optional):`ICZ`
