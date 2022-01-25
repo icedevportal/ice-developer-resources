@@ -11,7 +11,7 @@ Here we are going to deploy an erc20 contract using openzeppelin.
 * Create a directory to store all the files
 
 ```
-mkdir hardhat-tutorial && cd hardhat-tutorials
+mkdir hardhat-tutorial && cd hardhat-tutorial
 ```
 
 * Initialize npm package and install following dependencies.
