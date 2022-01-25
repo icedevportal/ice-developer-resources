@@ -20,5 +20,6 @@
 
 ***
 
+* [Get Started with ICE](get-started-with-ice.md)
 * [Accounts Mapping](accounts-mapping.md)
 * [Faucet](faucet.md)
