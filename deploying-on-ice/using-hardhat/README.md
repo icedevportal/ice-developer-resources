@@ -6,7 +6,7 @@ description: >-
 
 # Using Hardhat
 
-Here we are going to deploy and erc20 contract using openzeppelin.
+Here we are going to deploy an erc20 contract using openzeppelin.
 
 * Create a directory to store all the files
 
