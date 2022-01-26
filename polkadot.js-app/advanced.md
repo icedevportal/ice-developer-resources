@@ -13,7 +13,7 @@ To make transactions on substrate blockchain (outside EVM), you need to have a P
 
 * Select **Accounts** from the **Accounts** dropdown on the Navbar.
 
-![](<../.gitbook/assets/image (2) (1).png>)
+![](../.gitbook/assets/polkadot1.png)
 
 * Click on the **send** button, next to the wallet injected by Polkadot-js wallet extension
 * Enter recipient address, transfer amount and click on **Make Transfer.**
