@@ -1,6 +1,6 @@
 # Table of contents
 
-* [🧊 Welcome](README.md)
+* [🧊 Introduction](README.md)
   * [Prerequisites](readme/Prerequisites.md)
   * [Funding your account](readme/funding-your-account.md)
 
