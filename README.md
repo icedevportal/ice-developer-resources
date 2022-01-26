@@ -4,7 +4,7 @@ cover: .gitbook/assets/E6XdqMXVUAAM_x8.jpg
 coverY: -26.560939794419937
 ---
 
-# 🧊 Introduction
+# Introduction
 
 {% hint style="info" %}
 **Only Frost Testnet is currently live, the SNOW Testnet is WIP.**

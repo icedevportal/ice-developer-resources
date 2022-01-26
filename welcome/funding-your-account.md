@@ -17,4 +17,4 @@ Just paste the following command in the channel:
 !send 5CiPPseXPECbkjWCa6MnjNokrgYjMqmKndv2rSnekmSK2DjL
 ```
 
-Read more about the faucet [here](../ice-testnet-details/faucet.md).
+Read more about the faucet [here](../ice-details/faucet.md).
