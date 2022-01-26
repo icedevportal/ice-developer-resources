@@ -57,7 +57,7 @@ const increment = async () => {
 
   // Read function
   const currentCount = await counter.methods.getCount().call();
-  console.log(`Current Count: ${JSON.stringify(currentCount)}`); // Should return 1
+  console.log(`Current Count: ${currentCount}`); // Should return 1
   } catch (error) {
       console.log(error)
   }
