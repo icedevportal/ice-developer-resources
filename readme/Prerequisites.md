@@ -1,10 +1,10 @@
 ---
 description: Make sure you meet the following prerequisite requirements
-cover: ../.gitbook/assets/E6XdqMXVUAAM_x8_faded.png
+cover: ../.gitbook/assets/E6XdqMXVUAAM_x8.jpg
 coverY: 0
 ---
 
-# Prerequisites
+# ICE Prerequisites
 
 * Node >= v14.17.3
 * npm >= v6.14.13

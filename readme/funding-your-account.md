@@ -1,5 +1,7 @@
 ---
 description: This is how you load funds into your account
+cover: ../.gitbook/assets/E6XdqMXVUAAM_x8.jpg
+coverY: 0
 ---
 
 # Funding your account
