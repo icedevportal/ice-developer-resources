@@ -7,9 +7,9 @@ coverY: -26.560939794419937
 # Introduction
 
 {% hint style="info" %}
-**Only Frost Testnet is currently live, the SNOW Testnet is WIP.**
+**Frost Testnet is currently live.**
 
-**The network token for ICE will be ICY, but the Testnet denotes it as ICZ and can change in the future.**
+**NOTE: The initial implementation will lack full stability and may lead to inconsistent operations.**
 {% endhint %}
 
 ### What is ICE?
