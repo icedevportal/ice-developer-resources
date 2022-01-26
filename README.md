@@ -10,9 +10,9 @@ coverY: -26.560939794419937
 
 ****[**ICE **<mark style="color:blue;">****</mark> ](http://icenetwork.io)is an extension network and application hub of the <mark style="color:purple;"></mark> [**ICON ecosystem**](https://icon.community)<mark style="color:purple;">.</mark>&#x20;
 
-Built with <mark style="color:green;"></mark> [<mark style="color:blue;">Substrate</mark>](https://substrate.io)_,_ **ICE** is the first network to use the Substrate SDK to extend the feature-set of an existing layer one blockchain protocol. In addition, **ICE** will provide the much-needed addition of EVM compatibility to the **ICON ecosystem**.&#x20;
+Built with <mark style="color:green;"></mark> [**Substrate**](https://substrate.io)_,_ **ICE** is the first network to use the Substrate SDK to extend the feature-set of an existing layer one blockchain protocol. In addition, **ICE** will provide the much-needed addition of EVM compatibility to the **ICON ecosystem**.&#x20;
 
-Finally, **ICE** is the only EVM-compatible parachain that is also optimized for <mark style="color:blue;"></mark> [<mark style="color:blue;">ICON’s BTP</mark>](https://medium.com/helloiconworld/blockchain-transmission-protocol-btp-an-overview-744aaa51334e). This will position **ICE** as a potential flagship chain within the Polkadot ecosystem that showcases industry-leading cross-chain applications — all powered by ICON’s BTP.
+Finally, **ICE** is the only EVM-compatible parachain that is also optimized for <mark style="color:blue;"></mark> [<mark style="color:blue;">**ICON’s BTP**</mark>](https://medium.com/helloiconworld/blockchain-transmission-protocol-btp-an-overview-744aaa51334e). This will position **ICE** as a potential flagship chain within the Polkadot ecosystem that showcases industry-leading cross-chain applications — all powered by ICON’s BTP.
 
 ### Key Features of ICE
 
