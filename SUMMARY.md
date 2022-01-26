@@ -20,8 +20,8 @@
 * [Making EVM RPC calls](polkadot.js-app/making-evm-rpc-calls.md)
 * [Advanced](polkadot.js-app/advanced.md)
 
-## ICE Details
+## ICE (testnet) Details
 
-* [Network Endpoints](ice-details/network-endpoints.md)
-* [Accounts Mapping](ice-details/accounts-mapping.md)
-* [Faucet](ice-details/faucet.md)
+* [Network Endpoints](ice-testnet-details/network-endpoints.md)
+* [Accounts Mapping](ice-testnet-details/accounts-mapping.md)
+* [Faucet](ice-testnet-details/faucet.md)
