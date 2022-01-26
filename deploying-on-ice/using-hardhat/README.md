@@ -21,7 +21,7 @@ mkdir hardhat-tutorial && cd hardhat-tutorial
 ```
 npm init -y
 npm install --save-dev hardhat
-npm install ethers @nomiclabs/hardhat-waffle
+npm install ethers @nomiclabs/hardhat-waffle @nomiclabs/hardhat-ethers
 npm install @openzeppelin/contracts
 ```
 
