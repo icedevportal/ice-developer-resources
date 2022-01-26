@@ -1,3 +1,8 @@
+---
+cover: ../.gitbook/assets/1_W0eKVsybZ6TdxV8UYJX5Yg_polkadotjs (1).png
+coverY: 0
+---
+
 # Advanced
 
 ## Installing Polkadot-js Wallet Extension

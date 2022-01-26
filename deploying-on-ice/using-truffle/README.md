@@ -2,7 +2,7 @@
 description: >-
   This article will show you how to compile, deploy, and interact with smart
   contracts using Truffle on ICE testnode.
-cover: ../../.gitbook/assets/1_W0eKVsybZ6TdxV8UYJX5Yg_truffle.png
+cover: ../../.gitbook/assets/1_W0eKVsybZ6TdxV8UYJX5Yg_truffle (1).png
 coverY: 0
 ---
 

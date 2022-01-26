@@ -14,41 +14,19 @@ Built with <mark style="color:green;"></mark> [**Substrate**](https://substrate.
 
 Finally, **ICE** is the only EVM-compatible parachain that is also optimized for <mark style="color:blue;"></mark> [**ICON’s BTP**](https://medium.com/helloiconworld/blockchain-transmission-protocol-btp-an-overview-744aaa51334e). This will position **ICE** as a potential flagship chain within the Polkadot ecosystem that showcases industry-leading cross-chain applications — all powered by ICON’s BTP.
 
-### Key Features of ICE
+### Key Features
 
-**EVM & WASM Compatible:**&#x20;
+**EVM & WASM Compatible:** **ICE** is fully EVM compatible, enabling developers to iterate and innovate much faster using existing tooling and code from the Ethereum ecosystem. **ICE** is also compatible with WebAssembly, a widely supported, high-performance standard that will likely serve as the foundation of decentralised systems development.
 
-**ICE** is fully EVM compatible, enabling developers to iterate and innovate much faster using existing tooling and code from the Ethereum ecosystem. **ICE** is also compatible with WebAssembly, a widely supported, high-performance standard that will likely serve as the foundation of decentralised systems development.
-
-**Integration with the Polkadot ecosystem:**&#x20;
-
-As a candidate for a Polkadot parachain, a successful auction will ensure **ICE** enjoys all the benefits of the Polkadot ecosystem.\
+**Integration with the Polkadot ecosystem:** As a candidate for a Polkadot parachain, a successful auction will ensure **ICE** enjoys all the benefits of the Polkadot ecosystem.\
 \
-**Powered by Substrate:**&#x20;
+**Powered by Substrate:** **ICE** is built on Substrate, an open-source blockchain development framework that powers a variety of top projects including Polkadot, Kusama, Chainlink, Moonbeam, and more. Substrate allows developers to easily and efficiently build projects that are automatically optimized for any use case without requiring forks.
 
-**ICE** is built on Substrate, an open-source blockchain development framework that powers a variety of top projects including Polkadot, Kusama, Chainlink, Moonbeam, and more. Substrate allows developers to easily and efficiently build projects that are automatically optimized for any use case without requiring forks.
+**Access to a Multi-chain Ecosystem:** As a key connection between the ICON and Polkadot ecosystems, **ICE** will also provide developers with unmatched access to ICON BTP partners (including Algorand, Binance Smart Chain, Polkadot and Kusama ecosystems, Harmony, and Near), as well as their respective communities.
 
-**Access to a Multi-chain Ecosystem:**&#x20;
+### Start Building on ICE
 
-As a key connection between the ICON and Polkadot ecosystems, **ICE** will also provide developers with unmatched access to ICON BTP partners (including Algorand, Binance Smart Chain, Polkadot and Kusama ecosystems, Harmony, and Near), as well as their respective communities.
+Continue reading for more information on prerequisites, account funding and deployment!
 
-### Prerequisites <a href="#checking-prerequisites" id="checking-prerequisites"></a>
 
-* Node >= v14.17.3
-* npm >= v6.14.13
-* Metamask extension&#x20;
-* Account with funds
-
-### Load funds into your account
-
-To start building on ICE testnet node, you can get UNIT tokens from [faucet](https://discord.gg/dzmePx2UZd), in Web3 labs Discord Channel. Use dev-ice-faucet channel to get testnet tokens.
-
-Just paste the following command in the channel:
-
-```
-!send $substrate_wallet_address
-
-// Example
-!send 5CiPPseXPECbkjWCa6MnjNokrgYjMqmKndv2rSnekmSK2DjL
-```
 

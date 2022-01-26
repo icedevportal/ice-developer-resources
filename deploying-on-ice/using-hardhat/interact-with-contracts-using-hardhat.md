@@ -2,6 +2,8 @@
 description: >-
   This article will show you how to interact with recently deployed smart
   contract on ice using hardhat
+cover: ../../.gitbook/assets/1_W0eKVsybZ6TdxV8UYJX5Yg_hardhat (1).png
+coverY: 0
 ---
 
 # Interact with contracts using hardhat

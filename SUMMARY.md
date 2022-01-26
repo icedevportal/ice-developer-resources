@@ -1,6 +1,8 @@
 # Table of contents
 
 * [🧊 Welcome](README.md)
+  * [Prerequisites](readme/Prerequisites.md)
+  * [Funding your account](readme/funding-your-account.md)
 
 ## Deploying on ICE
 

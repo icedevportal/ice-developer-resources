@@ -1,3 +1,8 @@
+---
+cover: ../.gitbook/assets/1_W0eKVsybZ6TdxV8UYJX5Yg_polkadotjs (1).png
+coverY: 0
+---
+
 # Substrate Explorer: Viewing Blocks and Events
 
 * To view recent blocks and events, select the Explorer option from the Network dropdown in the Navigation Bar.&#x20;
