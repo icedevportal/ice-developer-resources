@@ -10,51 +10,51 @@ The documentation corresponding contains details for the RPC - HTTP, WSS endpoin
 
 {% tabs %}
 {% tab title="Frost Network" %}
-|                  |                                                                    |
-| ---------------- | ------------------------------------------------------------------ |
-| **Network name** | Frost Network                                                      |
-| **Parent chain** | None (standalone network)                                          |
-| **Parachain ID** | N/A                                                                |
-| **Endpoints**    | <p>https://frost.icenetwork.io</p><p>wss://frost.icenetwork.io</p> |
-| **Chain ID**     | 553                                                                |
-| **Symbol**       | ICZ                                                                |
-| **EVM RPC**      | https://frost.icenetwork.io                                        |
+|                  |                                                                            |
+| ---------------- | -------------------------------------------------------------------------- |
+| **Network name** | Frost Network                                                              |
+| **Parent chain** | None (standalone network)                                                  |
+| **Parachain ID** | N/A                                                                        |
+| **Endpoints**    | <p>https://frost-rpc.icenetwork.io</p><p>wss://frost-rpc.icenetwork.io</p> |
+| **Chain ID**     | 553                                                                        |
+| **Symbol**       | ICZ                                                                        |
+| **EVM RPC**      | https://frost-rpc.icenetwork.io                                            |
 {% endtab %}
 
 {% tab title="Arctic Network" %}
-|                  |                                                                       |
-| ---------------- | --------------------------------------------------------------------- |
-| **Network name** | Arctic Network                                                        |
-| **Parent chain** | Rococo                                                                |
-| **Parachain ID** | TBA                                                                   |
-| **Endpoints**    | <p>https://arctic.icenetwork.io</p><p>wss://arctic.icenetwork.io </p> |
-| **Chain ID**     | 552                                                                   |
-| **Symbol**       | ICZ                                                                   |
-| **EVM RPC**      | https://arctic.icenetwork.io                                          |
+|                  |                                                                               |
+| ---------------- | ----------------------------------------------------------------------------- |
+| **Network name** | Arctic Network                                                                |
+| **Parent chain** | Rococo                                                                        |
+| **Parachain ID** | TBA                                                                           |
+| **Endpoints**    | <p>https://arctic-rpc.icenetwork.io</p><p>wss://arctic-rpc.icenetwork.io </p> |
+| **Chain ID**     | 552                                                                           |
+| **Symbol**       | ICZ                                                                           |
+| **EVM RPC**      | https://arctic-rpc.icenetwork.io                                              |
 {% endtab %}
 
 {% tab title="SNOW Network" %}
-|                  |                                                                  |
-| ---------------- | ---------------------------------------------------------------- |
-| **Network name** | Snow Network                                                     |
-| **Parent chain** | Kusama                                                           |
-| **Parachain ID** | TBA                                                              |
-| **Endpoints**    | <p>https://snow.icenetwork.io</p><p>wss://snow.icenetwork.io</p> |
-| **Chain ID**     | 551                                                              |
-| **Symbol**       | ICZ                                                              |
-| **EVM RPC**      | https://snow.icenetwork.io                                       |
+|                  |                                                                          |
+| ---------------- | ------------------------------------------------------------------------ |
+| **Network name** | Snow Network                                                             |
+| **Parent chain** | Kusama                                                                   |
+| **Parachain ID** | TBA                                                                      |
+| **Endpoints**    | <p>https://snow-rpc.icenetwork.io</p><p>wss://snow-rpc.icenetwork.io</p> |
+| **Chain ID**     | 551                                                                      |
+| **Symbol**       | ICZ                                                                      |
+| **EVM RPC**      | https://snow-rpc.icenetwork.io                                           |
 {% endtab %}
 
 {% tab title="ICE Network" %}
-|                  |                                                                |
-| ---------------- | -------------------------------------------------------------- |
-| **Network name** | Ice Network                                                    |
-| **Parent chain** | Polkadot                                                       |
-| **Parachain ID** | TBA                                                            |
-| **Endpoints**    | <p>https://ice.icenetwork.io</p><p>wss://ice.icenetwork.io</p> |
-| **Chain ID**     | 550                                                            |
-| **Symbol**       | ICY                                                            |
-| **EVM RPC**      | https://ice.icenetwork.io                                      |
+|                  |                                                                        |
+| ---------------- | ---------------------------------------------------------------------- |
+| **Network name** | Ice Network                                                            |
+| **Parent chain** | Polkadot                                                               |
+| **Parachain ID** | TBA                                                                    |
+| **Endpoints**    | <p>https://ice-rpc.icenetwork.io</p><p>wss://ice-rpc.icenetwork.io</p> |
+| **Chain ID**     | 550                                                                    |
+| **Symbol**       | ICY                                                                    |
+| **EVM RPC**      | https://ice-rpc.icenetwork.io                                          |
 {% endtab %}
 {% endtabs %}
 
@@ -69,7 +69,7 @@ For the web3.js library, you can create a local Web3 instance and set the provid
 ```
 const Web3 = require('web3'); // Load Web3 library
 // Create local Web3 instance - set Frost as provider
-const web3 = new Web3("https://frost.icenetwork.io")
+const web3 = new Web3("https://frost-rpc.icenetwork.io")
 ```
 
 For the ethers.js library, define the provider by using `ethers.providers.StaticJsonRpcProvider(providerURL, {object})` and setting the provider URL to Frost:
@@ -77,7 +77,7 @@ For the ethers.js library, define the provider by using `ethers.providers.Static
 ```
 const ethers = require('ethers');
 
-const providerURL = "https://frost.icenetwork.io";
+const providerURL = "https://frost-rpc.icenetwork.io";
 // Define Provider
 const provider = new ethers.providers.StaticJsonRpcProvider(providerURL, {
     chainId: 553,

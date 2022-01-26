@@ -27,10 +27,9 @@ Once you have [MetaMask](https://metamask.io) installed and have created or impo
 ![](../../.gitbook/assets/3.jpg)
 
 * Network Name: `Frost`
-* RPC URL: `https://frost.icenetwork.io`
+* RPC URL: `https://frost-rpc.icenetwork.io`
 * ChainID: `553` (hex: `0x229`)
 * Symbol (Optional):`ICZ`
 
-![](../../.gitbook/assets/4.jpg)
+![](<../../.gitbook/assets/4 (1).jpg>)
 
-*
