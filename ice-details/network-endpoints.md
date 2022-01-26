@@ -33,7 +33,7 @@ The documentation corresponding contains details for the RPC - HTTP, WSS endpoin
 | **EVM RPC**      | https://arctic.icenetwork.io:5545                                     |
 {% endtab %}
 
-{% tab title="Snow Network" %}
+{% tab title="SNOW Network" %}
 |                  |                                                                  |
 | ---------------- | ---------------------------------------------------------------- |
 | **Network name** | Snow Network                                                     |
@@ -45,7 +45,7 @@ The documentation corresponding contains details for the RPC - HTTP, WSS endpoin
 | **EVM RPC**      | https://snow.icenetwork.io:5545                                  |
 {% endtab %}
 
-{% tab title="Ice Network" %}
+{% tab title="ICE Network" %}
 |                  |                                                                |
 | ---------------- | -------------------------------------------------------------- |
 | **Network name** | Ice Network                                                    |

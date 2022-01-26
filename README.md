@@ -4,7 +4,13 @@ cover: .gitbook/assets/E6XdqMXVUAAM_x8.jpg
 coverY: -26.560939794419937
 ---
 
-# 🧊 Welcome
+# 🧊 Introduction
+
+{% hint style="info" %}
+**Only Frost Testnet is currently live, the SNOW Testnet is WIP.**
+
+**The network token for ICE will be ICY, but the Testnet denotes it as ICZ and can change in the future.**
+{% endhint %}
 
 ### What is ICE?
 
