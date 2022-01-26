@@ -29,7 +29,9 @@ truffle(testnet)> let accounts = await web3.eth.getAccounts()
 truffle(testnet)> instance.sendCoin(accounts[1], 10, {from: accounts[0]})
 ```
 
+{% hint style="info" %}
 **NOTE**: if there is only one address in accounts then try replacing accounts\[1] by any other metamask account address
+{% endhint %}
 
 Next you should be able to see similar output
 

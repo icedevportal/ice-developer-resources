@@ -70,6 +70,7 @@ If everything goes right, you will be able to see output like this:&#x20;
 
 ![](../../.gitbook/assets/sc1.png)
 
+{% hint style="info" %}
 **NOTE**: If you get timeout errors then try adding following parameters to config file just below the network id & deploy with deploy command 2-3 times.
 
 ```
@@ -77,3 +78,5 @@ networkCheckTimeout: 9000000,
 timeoutBlocks: 10000,
 skipDryRun: true,
 ```
+{% endhint %}
+
