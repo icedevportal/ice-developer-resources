@@ -14,3 +14,5 @@ Just paste the following command in the channel:
 // Example
 !send 5CiPPseXPECbkjWCa6MnjNokrgYjMqmKndv2rSnekmSK2DjL
 ```
+
+Read more about the faucet [here](../ice-details/faucet.md).
