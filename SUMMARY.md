@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Getting started](README.md)
+* [🧊 Welcome](README.md)
 
 ## Deploying on ICE
 
