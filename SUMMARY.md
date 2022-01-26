@@ -24,6 +24,7 @@
 
 ## 🧊 ICE (testnet) Details
 
-* [Network Endpoints](ice-details/network-endpoints.md)
+* [Network Endpoints](ice-testnet-details/network-endpoints/README.md)
+  * [Interacting with Frost Using Metamask](ice-testnet-details/network-endpoints/interacting-with-frost-using-metamask.md)
 * [Accounts Mapping](ice-details/accounts-mapping.md)
 * [Faucet](ice-details/faucet.md)

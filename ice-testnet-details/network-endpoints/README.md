@@ -18,7 +18,7 @@ The documentation corresponding contains details for the RPC - HTTP, WSS endpoin
 | **Endpoints**    | <p>https://frost.icenetwork.io</p><p>wss://frost.icenetwork.io</p> |
 | **Chain ID**     | 553                                                                |
 | **Symbol**       | ICZ                                                                |
-| **EVM RPC**      | https://frost.icenetwork.io:5545                                   |
+| **EVM RPC**      | https://frost.icenetwork.io                                        |
 {% endtab %}
 
 {% tab title="Arctic Network" %}
@@ -30,7 +30,7 @@ The documentation corresponding contains details for the RPC - HTTP, WSS endpoin
 | **Endpoints**    | <p>https://arctic.icenetwork.io</p><p>wss://arctic.icenetwork.io </p> |
 | **Chain ID**     | 552                                                                   |
 | **Symbol**       | ICZ                                                                   |
-| **EVM RPC**      | https://arctic.icenetwork.io:5545                                     |
+| **EVM RPC**      | https://arctic.icenetwork.io                                          |
 {% endtab %}
 
 {% tab title="SNOW Network" %}
@@ -42,7 +42,7 @@ The documentation corresponding contains details for the RPC - HTTP, WSS endpoin
 | **Endpoints**    | <p>https://snow.icenetwork.io</p><p>wss://snow.icenetwork.io</p> |
 | **Chain ID**     | 551                                                              |
 | **Symbol**       | ICZ                                                              |
-| **EVM RPC**      | https://snow.icenetwork.io:5545                                  |
+| **EVM RPC**      | https://snow.icenetwork.io                                       |
 {% endtab %}
 
 {% tab title="ICE Network" %}
@@ -54,7 +54,7 @@ The documentation corresponding contains details for the RPC - HTTP, WSS endpoin
 | **Endpoints**    | <p>https://ice.icenetwork.io</p><p>wss://ice.icenetwork.io</p> |
 | **Chain ID**     | 550                                                            |
 | **Symbol**       | ICY                                                            |
-| **EVM RPC**      | https://ice.icenetwork.io:5545                                 |
+| **EVM RPC**      | https://ice.icenetwork.io                                      |
 {% endtab %}
 {% endtabs %}
 
@@ -86,18 +86,3 @@ const provider = new ethers.providers.StaticJsonRpcProvider(providerURL, {
 ```
 
 Any Ethereum wallet should be able to generate a valid address for Frost Network (for example, [MetaMask](https://metamask.io)).
-
-## Connect to Metamask
-
-If you already have MetaMask installed, you can easily connect MetaMask to Frost:
-
-{% hint style="info" %}
-**Note:** MetaMask will popup asking for permission to add Frost as a custom network. Once you approve permissions, MetaMask will switch your current network to Frost.
-{% endhint %}
-
-If you want to connect MetaMask by providing the network information, you can use the following data:
-
-* Network Name: `Frost`
-* RPC URL: `https://frost.icenetwork.io`
-* ChainID: `553` (hex: `0x229`)
-* Symbol (Optional):`ICZ`
