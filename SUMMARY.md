@@ -4,7 +4,6 @@
 
 * [Introduction](README.md)
 * [ICE Development Prerequisites](welcome/Prerequisites.md)
-* [Funding your account](welcome/funding-your-account.md)
 
 ## 🧊 Deploying on ICE
 
