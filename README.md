@@ -7,7 +7,7 @@ coverY: -26.560939794419937
 # Introduction
 
 {% hint style="info" %}
-**Frost Testnet is currently live.**
+**Frost Testnet is currently live. (**[**Faucet**](https://discord.com/invite/dzmePx2UZd)**)**
 
 **NOTE: The initial implementation will lack full stability and may lead to inconsistent operations.**
 {% endhint %}
