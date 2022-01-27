@@ -8,7 +8,7 @@ coverY: 0
 
 # Using Hardhat
 
-Here we are going to deploy an erc20 contract using openzeppelin.
+Here we are going to deploy an ERC-20 contract using openzeppelin.
 
 * Create a directory to store all the files
 
@@ -35,7 +35,7 @@ select `Create an empty hardhat.config.js` with your keyboard and hit enter
 
 ![](../../.gitbook/assets/hardhat.png)
 
-* Lets create our ERC20 smart contract
+* Lets create our ERC-20 smart contract
   * Create a directory `contracts` in root where we will store our contracts
   * Create a file in `contracts/MyToken.sol` which ERC20 token smart contract.
 

@@ -7,16 +7,16 @@ coverY: 0
 
 # Building on ICE
 
-Here you can find information on development tools and other information related to building on ICE.
+Here, you can find information on development tools and other information related to building on ICE.
 
 Following are some sections that might help you get started to build:
 
 ### Interact
 
-* [Hardhat](using-hardhat/): Overview on how to deploy smart contracts using Hardhat and interact with it.
-* [Truffle](using-truffle/): Overview on how to deploy smart contracts using Truffle and interact with it.
-* [Web3.js](using-web3.js/): Overview on how to deploy smart contracts using web3.js and interact with it.
-* [Openzeppelin](using-hardhat/): An example on how openeppelin library can be used on ICE
+* [Hardhat](using-hardhat/): Overview on how to deploy smart contracts using Hardhat and interact with smart contracts.
+* [Truffle](using-truffle/): Overview on how to deploy smart contracts using Truffle and interact with smart contracts.
+* [Web3.js](using-web3.js/): Overview on how to deploy smart contracts using web3.js and interact with smart contracts.
+* [Openzeppelin](using-hardhat/): An example on how openzeppelin library can be used to write Solidity contracts on ICE
 * [Metamask:](../ice-testnet-details/network-endpoints/interacting-with-frost-using-metamask.md) Guide on how to integrate Metamask into ICE
 
 ### Tools
