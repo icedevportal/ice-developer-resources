@@ -7,6 +7,10 @@ coverY: 0
 
 # Building on ICE
 
+Here you can find information on development tools and other information related to building on ICE.
+
+Following are some sections that might help you get started to build:
+
 ### Interact
 
 * [Hardhat](using-hardhat/): Overview on how to deploy smart contracts using Hardhat and interact with it.
