@@ -4,9 +4,9 @@ cover: ../.gitbook/assets/E6XdqMXVUAAM_x8.jpg
 coverY: 0
 ---
 
-# ICE Prerequisites
+# ICE Development Prerequisites
 
-* Node >= v14.17.3
+* Node.js >= v14.17.3
 * npm >= v6.14.13
 * Metamask extension&#x20;
 * Account with funds

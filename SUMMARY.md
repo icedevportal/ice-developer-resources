@@ -3,16 +3,17 @@
 ## 🧊 Welcome
 
 * [Introduction](README.md)
-* [ICE Development Prerequisites](welcome/Prerequisites.md)
 
-## 🧊 Deploying on ICE
+## 🧊 Build
 
-* [Using Hardhat](deploying-on-ice/using-hardhat/README.md)
-  * [Interact with contracts using Hardhat](deploying-on-ice/using-hardhat/interact-with-contracts-using-hardhat.md)
-* [Using Truffle](deploying-on-ice/using-truffle/README.md)
-  * [Interact with contracts using truffle](deploying-on-ice/using-truffle/interact-with-contracts-using-truffle.md)
-* [Using Web3.js](deploying-on-ice/using-web3.js/README.md)
-  * [Interact with contracts using web3.js](deploying-on-ice/using-web3.js/interact-with-contracts-using-web3.js.md)
+* [Building on ICE](build/building-on-ice.md)
+* [ICE Development Prerequisites](build/Prerequisites.md)
+* [Using Hardhat](build/using-hardhat/README.md)
+  * [Interact with contracts using Hardhat](build/using-hardhat/interact-with-contracts-using-hardhat.md)
+* [Using Truffle](build/using-truffle/README.md)
+  * [Interact with contracts using truffle](build/using-truffle/interact-with-contracts-using-truffle.md)
+* [Using Web3.js](build/using-web3.js/README.md)
+  * [Interact with contracts using web3.js](build/using-web3.js/interact-with-contracts-using-web3.js.md)
 
 ## 🧊 Polkadot.js app
 
