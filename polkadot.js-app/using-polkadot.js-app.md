@@ -3,7 +3,7 @@ description: >-
   Polkadot.js app is the portal into the ICE test network. It allows users to
   view transactions, blocks, events, transfer balance, query blockchains and
   create transactions.
-cover: ../.gitbook/assets/1_W0eKVsybZ6TdxV8UYJX5Yg_polkadotjs (1).png
+cover: ../.gitbook/assets/1_W0eKVsybZ6TdxV8UYJX5Yg_midpolkadotjs.jpg
 coverY: 0
 ---
 

@@ -2,7 +2,7 @@
 description: >-
   Let's communicate with our freshly deployed contract in the ice testnet using
   web3.js
-cover: ../../.gitbook/assets/1_W0eKVsybZ6TdxV8UYJX5Yg_web3js (3).png
+cover: ../../.gitbook/assets/1_W0eKVsybZ6TdxV8UYJX5Yg_midweb3js.jpg
 coverY: 0
 ---
 

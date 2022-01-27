@@ -1,5 +1,5 @@
 ---
-cover: ../.gitbook/assets/1_W0eKVsybZ6TdxV8UYJX5Yg_polkadotjs (1).png
+cover: ../.gitbook/assets/1_W0eKVsybZ6TdxV8UYJX5Yg_midpolkadotjs.jpg
 coverY: 0
 ---
 

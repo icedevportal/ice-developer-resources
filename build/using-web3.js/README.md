@@ -3,7 +3,7 @@ description: >-
   This post will show you how to deploy and interact with a Solidity-based smart
   contract on ICE using the Solidity compiler and web3.js.The web3.js library
   may be used directly with an ICE node due to
-cover: ../../.gitbook/assets/1_W0eKVsybZ6TdxV8UYJX5Yg_web3js (3).png
+cover: ../../.gitbook/assets/1_W0eKVsybZ6TdxV8UYJX5Yg_midweb3js.jpg
 coverY: 0
 ---
 
