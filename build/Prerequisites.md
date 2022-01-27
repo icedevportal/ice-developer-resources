@@ -1,6 +1,6 @@
 ---
 description: Make sure you meet the following prerequisite requirements
-cover: ../.gitbook/assets/E6XdqMXVUAAM_x8.jpg
+cover: ../.gitbook/assets/ICE-Cicles.gif
 coverY: 0
 ---
 

@@ -1,7 +1,6 @@
 ---
 description: Welcome to the builders section of ICE Blockchain
-cover: >-
-  https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F49gyOjprWLCN0GWHsIW3%2Fuploads%2FRBe9liXddWMdNoT1wIp1%2FE6XdqMXVUAAM_x8.jpg?alt=media&token=18b1f341-49cf-4614-98b3-a0a7b12b40c9
+cover: ../.gitbook/assets/ICE-Cicles.gif
 coverY: 0
 ---
 
