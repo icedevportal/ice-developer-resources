@@ -1,7 +1,7 @@
 ---
 description: This is ICE Blockchain's Development Portal
-cover: .gitbook/assets/E6XdqMXVUAAM_x8.jpg
-coverY: -26.560939794419937
+cover: .gitbook/assets/ICE-Cicles.gif
+coverY: 0
 ---
 
 # Introduction
