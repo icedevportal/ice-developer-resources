@@ -14,6 +14,8 @@
   * [Interact with contracts using truffle](build/using-truffle/interact-with-contracts-using-truffle.md)
 * [Using Web3.js](build/using-web3.js/README.md)
   * [Interact with contracts using web3.js](build/using-web3.js/interact-with-contracts-using-web3.js.md)
+* [Using Remix](build/using-remix/README.md)
+  * [Interact with smart contract using Remix](build/using-remix/interact-with-smart-contract-using-remix.md)
 
 ## 🧊 Polkadot.js app
 
