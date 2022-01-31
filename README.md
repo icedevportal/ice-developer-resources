@@ -22,7 +22,7 @@ Finally, **ICE** is the only EVM-compatible parachain that is also optimized for
 
 ### Key Features
 
-**EVM & WASM Compatible:** **ICE** is fully EVM compatible, enabling developers to iterate and innovate much faster using existing tooling and code from the Ethereum ecosystem. **ICE** is also compatible with WebAssembly, a widely supported, high-performance standard that will likely serve as the foundation of decentralised systems development.
+**EVM & eWASM Compatible:** **ICE** is fully EVM compatible, enabling developers to iterate and innovate much faster using existing tooling and code from the Ethereum ecosystem. **ICE** is also compatible with WebAssembly, a widely supported, high-performance standard that will likely serve as the foundation of decentralised systems development.
 
 **Integration with the Polkadot ecosystem:** As a candidate for a Polkadot parachain, a successful auction will ensure **ICE** enjoys all the benefits of the Polkadot ecosystem.\
 \
