@@ -17,9 +17,9 @@ This requires one to hold the private key to the substrate account or the Ethere
 
 #### Faucet
 
-| Network     | Link                                                                   | Note                                                                                                                             |
-| ----------- | ---------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
-| ICE-Testnet | Join this [Discord](https://discord.gg/S24rYCa5) link to request funds | <p>In the <code>dev-ice-faucet</code> guild,<br>type in <code>!send &#x3C;substrate/Ethereum address></code> &#x26; hit send</p> |
+| Network     | Link                                                                     | Note                                                                                                                             |
+| ----------- | ------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------- |
+| ICE-Testnet | Join this [Discord](https://discord.gg/Q9uJaYhJXk) link to request funds | <p>In the <code>dev-ice-faucet</code> guild,<br>type in <code>!send &#x3C;substrate/Ethereum address></code> &#x26; hit send</p> |
 
 * Requesting address will be provisioned with 10 ICZ tokens and a successful response.
 * Users will have to wait for 6 hours between each request.

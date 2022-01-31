@@ -6,8 +6,10 @@ coverY: 0
 
 # Introduction
 
+
+
 {% hint style="info" %}
-**Frost Testnet is currently live. (**[**Faucet**](https://discord.com/invite/dzmePx2UZd)**)**
+**Frost Testnet is currently live. (**[**Faucet**](https://discord.gg/Q9uJaYhJXk)**)**
 
 **NOTE: The initial implementation will lack full stability and may lead to inconsistent operations.**
 {% endhint %}
