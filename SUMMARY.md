@@ -7,6 +7,7 @@
 ## 🧊 Build
 
 * [Building on ICE](build/building-on-ice.md)
+* [Run a node locally](build/run-a-node-locally.md)
 * [ICE Development Prerequisites](build/Prerequisites.md)
 * [Using Hardhat](build/using-hardhat/README.md)
   * [Interact with contracts using Hardhat](build/using-hardhat/interact-with-contracts-using-hardhat.md)
