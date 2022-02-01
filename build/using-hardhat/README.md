@@ -70,7 +70,7 @@ module.exports = {
   solidity: "0.8.2",
   networks: {
     testnet: {
-      url: `http://51.158.117.160:9933`,
+      url: `http://212.47.230.154:9933`,
       accounts: [`0x${ICE_PRIVATE_KEY}`]
     }
   }
