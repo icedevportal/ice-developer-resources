@@ -36,7 +36,7 @@ E.g. on macOS (Big Sur v11.6), Wasm is added using following command
 * Clone local frontier node
 
 ```
-git clone https://github.com/substrate-developer-hub/frontier-node-template/
+git clone https://github.com/web3labs/ice-substrate
 ```
 
 * Build the development node
