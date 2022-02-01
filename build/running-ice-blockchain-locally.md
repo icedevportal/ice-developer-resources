@@ -33,7 +33,7 @@ E.g. on macOS (Big Sur v11.6), Wasm is added using following command
 `rustup target add wasm32-unknown-unknown --toolchain nightly-x86_64-apple-darwin`
 {% endhint %}
 
-* Clone local frontier node
+* Clone local ICE node
 
 ```
 git clone https://github.com/web3labs/ice-substrate.git

@@ -18,7 +18,7 @@ The documentation corresponding contains details for the RPC - HTTP, WSS endpoin
 | **Endpoints**    | <p>http://frost-rpc.icenetwork.io:9933</p><p>wss://frost-rpc.icenetwork.io:9944</p> |
 | **Chain ID**     | 553                                                                                 |
 | **Symbol**       | ICZ                                                                                 |
-| **EVM RPC**      | https://frost-rpc.icenetwork.io:9933                                                |
+| **EVM RPC**      | http://frost-rpc.icenetwork.io:9933                                                 |
 {% endtab %}
 
 {% tab title="Arctic Network" %}

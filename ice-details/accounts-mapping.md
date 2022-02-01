@@ -28,7 +28,11 @@ Just select the input address format from the dropdown and enter the selected in
 * Select the input address format to H160(ethereum)
 * Enter your Ethereum address and click on go
 * You will get your equivalent SS58(substrate) address
-* In my case H160 and SS58 address were:                                                                                              H160 address: 0x7c0f5F59A22B657C8D9E21b44D2Dc0118fD2BE7B                                               SS58 address: 5DLri6vcHLAGAs3kQFoE8wP9cG4gHfcqmNrFVZJT2tNMQREX
+* In my case H160 and SS58 address were:
+
+> H160 address: 0x7c0f5F59A22B657C8D9E21b44D2Dc0118fD2BE7B
+>
+> SS58 address: 5DLri6vcHLAGAs3kQFoE8wP9cG4gHfcqmNrFVZJT2tNMQREX
 
 ### Balance Mapping
 
