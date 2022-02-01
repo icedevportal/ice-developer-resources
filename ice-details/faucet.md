@@ -45,4 +45,4 @@ Example command for valid Ethereum address
 ```
 
 * After a successful transaction, the amount should be reflected in the respective wallet.
-* To add the custom Testnet RPC details, refer here [Network Details](broken-reference)
+* To add the custom Testnet RPC details, refer here [Network Details](../ice-testnet-details/network-endpoints/)

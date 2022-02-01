@@ -4,13 +4,52 @@ description: >-
   testing ICE's Ethereum compatibility capabilities.
 ---
 
-# Run a node locally
+# Running ICE blockchain locally
 
 Find all the live testnets [here](../ice-testnet-details/network-endpoints/).
 
-Alternatively, you can run a test node locally on your machine.
+**Developers looking to build smart contracts on ICE blockchain can run ICE blockchain locally, inspect the blockchain state, and test their code.**
 
-You can clone the github repository [https://github.com/web3labs/ice-substrate](https://github.com/web3labs/ice-substrate) and follow the guidelines written in _<mark style="color:blue;">`README.md`</mark>_ to run a node on your local machine.
+* Install Rust
+
+```
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+```
+
+* Configure your Rust environment
+
+```
+rustup default stable
+rustup update
+rustup update nightly
+rustup target add wasm32-unknown-unknown --toolchain nightly
+```
+
+{% hint style="info" %}
+**Depending on the OS, Wasm toolchain might require manual installation.**
+
+E.g. on macOS (Big Sur v11.6), Wasm is added using following command
+
+`rustup target add wasm32-unknown-unknown --toolchain nightly-x86_64-apple-darwin`
+{% endhint %}
+
+* Clone local frontier node
+
+```
+git clone https://github.com/substrate-developer-hub/frontier-node-template/
+```
+
+* Build the development node
+
+```
+cargo build --release
+```
+
+* Run the local dev node
+
+```
+./target/release/ice-node --dev
+```
 
 Once your node is running you should be able to see output similar to this on your terminal:&#x20;
 
