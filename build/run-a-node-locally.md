@@ -12,7 +12,7 @@ Alternatively, you can run a test node locally on your machine.
 
 You can clone the github repository [https://github.com/web3labs/ice-substrate](https://github.com/web3labs/ice-substrate) and follow the guidelines written in _<mark style="color:blue;">`README.md`</mark>_ to run a node on your local machine.
 
-Once your node is running you should to able see output similar to this on your terminal:&#x20;
+Once your node is running you should be able to see output similar to this on your terminal:&#x20;
 
 ![](../.gitbook/assets/image.png)
 
