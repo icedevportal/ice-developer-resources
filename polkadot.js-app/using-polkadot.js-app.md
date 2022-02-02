@@ -9,8 +9,6 @@ coverY: 0
 
 # Using Polkadot.js App
 
-Head over to [this link](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2F212.47.230.154%3A9944#/explorer) to launch the app. ( _**Note**: If it’s the first time you are loading this app with ICE testnet, you need to visit_ [_this link_](https://212.47.230.154:9944) _for your browser to download the ssl certificate. Re-open the polkadot.js app after that and it should be working_)
-
 Head over to [this link](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Ffrost-rpc.icenetwork.io%3A9944#/explorer) to launch the app.
 
 {% hint style="info" %}
