@@ -2,6 +2,8 @@
 description: >-
   This article covers the procedures required to set up a development node for
   testing locally.
+cover: ../.gitbook/assets/ICE-Cicles.gif
+coverY: 0
 ---
 
 # Running ICE blockchain locally
