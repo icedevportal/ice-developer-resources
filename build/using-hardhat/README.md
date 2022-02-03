@@ -10,13 +10,17 @@ coverY: 0
 
 Here we are going to deploy an ERC-20 contract using openzeppelin.
 
-* Create a directory to store all the files
+### Create Project
+
+Create a directory to store all the files
 
 ```
 mkdir hardhat-tutorial && cd hardhat-tutorial
 ```
 
-* Initialize npm package and install following dependencies.
+### Initialize npm package and install dependencies
+
+Initialize npm package and install following dependencies.
 
 ```
 npm init -y
@@ -25,7 +29,9 @@ npm install ethers @nomiclabs/hardhat-waffle @nomiclabs/hardhat-ethers
 npm install @openzeppelin/contracts
 ```
 
-* In the same directory **run:**
+### Run Hardhat
+
+In the same directory **run:**
 
 ```
 npx hardhat
@@ -35,9 +41,12 @@ select `Create an empty hardhat.config.js` with your keyboard and hit enter
 
 ![](../../.gitbook/assets/hardhat.png)
 
-* Lets create our ERC-20 smart contract
-  * Create a directory `contracts` in root where we will store our contracts
-  * Create a file in `contracts/MyToken.sol` which ERC20 token smart contract.
+### Create Smart Contract
+
+Lets create our ERC-20 smart contract
+
+* Create a directory `contracts` in root where we will store our contracts
+* Create a file in `contracts/MyToken.sol` which ERC20 token smart contract.
 
 ```
 // SPDX-License-Identifier: MIT
@@ -61,7 +70,9 @@ contract MyToken is ERC20, Ownable {
 **NOTE**: The above contract can be generated from [contracts wizard](https://wizard.openzeppelin.com/#erc20) with a mint value of 1000 tokens and feature set to mintable.
 {% endhint %}
 
-* Modifying hardhat configuration file, add ICE testnet entries to _<mark style="color:blue;">hardhat.config.js</mark>_ file in the url parameter.
+### Modify Config file
+
+Modifying hardhat configuration file, add ICE testnet entries to _<mark style="color:blue;">hardhat.config.js</mark>_ file in the url parameter.
 
 ```
 require("@nomiclabs/hardhat-waffle");
@@ -77,13 +88,17 @@ module.exports = {
 };
 ```
 
-* Compile the contract
+### Compile
+
+Compile the contract
 
 ```
-npx hardhat compile
+npx hardhat compile                                                                                                                             
 ```
 
-* Deploy                                                                                                                                                Lets create a new directory `scripts` inside project's root directory and paste following code in `scripts/deploy.js`
+### Deploy
+
+Lets create a new directory `scripts` inside project's root directory and paste following code in `scripts/deploy.js`
 
 ```
 async function main() {
