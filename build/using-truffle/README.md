@@ -8,13 +8,15 @@ coverY: 0
 
 # Using Truffle
 
-* Install truffle globally
+### Install truffle globally
 
 ```
 npm install -g truffle
 ```
 
-* Create a metacoin project using following commands one by one
+### Create Project
+
+Create a metacoin project using following commands one by one
 
 ```
 mkdir metacoin && cd metacoin
@@ -32,7 +34,9 @@ _test/_: Directory for test files&#x20;
 
 _truffle-config.js_: Truffle config file&#x20;
 
-* Modify truffle-config.js to add Ice test network.Also make sure to add your private key.
+### Modify config file
+
+Modify truffle-config.js to add Ice test network. Also make sure to add your private key.
 
 ```
 const HDWalletProvider = require('@truffle/hdwallet-provider');
@@ -59,7 +63,7 @@ module.exports = {
 };
 ```
 
-* Compile and deploy
+### Compile and deploy
 
 ```
 truffle compile

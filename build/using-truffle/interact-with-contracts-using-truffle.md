@@ -10,19 +10,23 @@ coverY: 0
 
 We can look at the javascript object MetaCoin supplied by truffle in the truffle console.
 
-* Open truffle console
+### Open truffle console
 
 ```
 truffle console --network testnet
 ```
 
-* Create instance for contract MetaCoin
+### Create instance
+
+Create instance for contract MetaCoin
 
 ```
 truffle(testnet)> let instance = await MetaCoin.deployed()
 ```
 
-* Making a transaction by calling sendCoin method from contract
+### Make Transactions
+
+Making a transaction by calling sendCoin method from contract
 
 ```
 truffle(testnet)> let accounts = await web3.eth.getAccounts()
@@ -37,7 +41,7 @@ Next you should be able to see similar output
 
 ![ ](https://lh6.googleusercontent.com/B8nfTYuV9uBO-XBctrOm8uLsT-Sp9TTABZ2za5zPJvdHtEvgyGbWvc1iu6xWUvdzKvIlduZZ6OhstAXnIFo4Hpwt08BHmfYMmaQOTzMQXVpRS1kWwFLzc0CA9wtZstvArVBexSkS)
 
-* Check balance of address by calling getBalance method of contract
+Check balance of address by calling getBalance method of contract
 
 ```
 truffle(testnet)> let balance = await instance.getBalance(accounts[1])

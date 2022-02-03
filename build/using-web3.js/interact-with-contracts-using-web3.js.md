@@ -8,7 +8,9 @@ coverY: 0
 
 # Interact with contracts using web3.js
 
-* Create <mark style="color:blue;"></mark> <mark style="color:blue;"></mark>_<mark style="color:blue;">interact.js</mark>_
+### Interact with contract
+
+Create <mark style="color:blue;"></mark> <mark style="color:blue;"></mark>_<mark style="color:blue;">interact.js</mark>_
 
 ```
 const Web3 = require('web3');

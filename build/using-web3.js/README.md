@@ -9,19 +9,23 @@ coverY: 0
 
 # Using Web3.js
 
-* Create a directory to store all required files
+### Create Project
+
+Create a directory to store all required files
 
 ```
 mkdir Counter && cd Counter/
 ```
 
-* Initialize npm package
+### Initialize npm package
 
 ```
 npm init -y
 ```
 
-* Install web3 and solc dependencies
+### Install dependencies
+
+Install web3 and solc dependencies
 
 ```
 npm install web3 solc
@@ -29,15 +33,17 @@ npm install web3 solc
 
 This example's setup will be straightforward, and it will include the files listed below:
 
-&#x20;_counter.sol_: the file with our Solidity code&#x20;
+&#x20;_**counter.sol**_: the file with our Solidity code&#x20;
 
-_compile.js_: compiles the contract with the Solidity compile
+_**compile.js**_: compiles the contract with the Solidity compile
 
-_deploy.js_: it will handle the deployment to our ICE testnet node&#x20;
+_**deploy.js**_: it will handle the deployment to our ICE testnet node&#x20;
 
-_interact.js:_ it will be used to interact with contracts
+_**interact.js**:_ it will be used to interact with contracts
 
-* Create _<mark style="color:blue;">Counter.sol</mark>_ file in root
+### Create contract
+
+Create _<mark style="color:blue;">Counter.sol</mark>_ file in root
 
 ```
 // SPDX-License-Identifier: MIT
@@ -68,7 +74,9 @@ contract Counter {
 }
 ```
 
-* Create _<mark style="color:blue;">compile.js</mark>_ . The _<mark style="color:blue;">compile.js</mark>_ file's only function is to utilize the Solidity compiler to generate the contract's bytecode and interface (ABI).
+### Compile Contract
+
+Create _<mark style="color:blue;">compile.js</mark>_ . The _<mark style="color:blue;">compile.js</mark>_ file's only function is to utilize the Solidity compiler to generate the contract's bytecode and interface (ABI).
 
 ```
 const path = require("path");
@@ -98,7 +106,9 @@ const contractFile = tempFile.contracts["Counter.sol"]["Counter"];
 module.exports = contractFile;
 ```
 
-* Create _ <mark style="color:blue;">deploy.js</mark>_
+### Deploy Contract
+
+Create _ <mark style="color:blue;">deploy.js</mark>_
 
 ```
 const Web3 = require("web3");
@@ -152,7 +162,7 @@ const deploy = async () => {
 deploy();
 ```
 
-* Finally run following commands
+Finally run following commands
 
 ```
 node compile.js

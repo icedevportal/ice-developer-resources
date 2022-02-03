@@ -25,7 +25,7 @@ Arguments:
 
 **hash:** 32 Bytes - Hash of a block
 
-**full:** TRUE=returns the full transaction objects, FALSE = only the hashes of the transactions.
+**full:** if TRUE, returns the full transaction objects. If FALSE, returns only the hashes of the transactions.
 {% endhint %}
 
 * **getBalance(address, number):** Fetch balance of the provided H160 (Ethereum) Address
@@ -45,7 +45,7 @@ Arguments:
 
 **block:** hex value of a block number
 
-**full:** Boolean, TRUE = full transaction objects, FALSE = only hashes of trasactions.
+**full:** Boolean, if TRUE, returns full transaction objects. If FALSE, returns only hashes of transactions.
 {% endhint %}
 
 
