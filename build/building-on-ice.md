@@ -22,7 +22,7 @@ Following are some sections that might help you get started to build:
 
 * [Faucet](../ice-details/faucet.md): To fund your account with testnet tokens
 * [Polkadot explorer](broken-reference)
-* **Remix**: Guide on how to use Remix to write Solidity contracts and deploy on the ICE network
+* [Remix](using-remix/): Guide on how to use Remix to write Solidity contracts and deploy on the ICE network
 
 ### Resources
 

@@ -17,6 +17,8 @@
   * [Interact with contracts using web3.js](build/using-web3.js/interact-with-contracts-using-web3.js.md)
 * [Using Remix](build/using-remix/README.md)
   * [Interact with smart contract using Remix](build/using-remix/interact-with-smart-contract-using-remix.md)
+* [Dapp examples](build/dapp-examples/README.md)
+  * [Swap on ICE Blockchain](build/dapp-examples/swap-on-ice-blockchain.md)
 
 ## 🧊 Polkadot.js app
 
