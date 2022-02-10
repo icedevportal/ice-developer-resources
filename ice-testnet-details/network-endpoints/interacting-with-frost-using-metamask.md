@@ -31,5 +31,4 @@ Once you have [MetaMask](https://metamask.io) installed and have created or impo
 * ChainID: `553` (hex: `0x229`)
 * Symbol (Optional):`ICZ`
 
-![](<../../.gitbook/assets/4 (1).jpg>)
-
+![](<../../.gitbook/assets/image (2).png>)
