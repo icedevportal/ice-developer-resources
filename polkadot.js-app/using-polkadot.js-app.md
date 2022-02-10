@@ -20,7 +20,10 @@ You might see one of the following warnings in your browser:
 
 ![](<../.gitbook/assets/image (4).png>)
 
-* **Brave:** You might see the following warning `Your connection is not private`. Please type `thisisunsafe` after clicking in the browser body.
+* **Brave:** You might see the following warning `Your connection is not private`. Please click on **Advanced** > **Proceed to frost-rpc.icenetwork.io (unsafe).**                                                   If you are unable to get **Advanced** button then click on browser body and type `thisisunsafe.`
+
+![](../.gitbook/assets/273455507\_352716266490671\_7958131310511955853\_n.png)
+
 * **Firefox:** You might see the following warning `Warning: Potential Security Risk Ahead`. Please click on **Advanced** > **Accept the risk and continue.**
 
 ![](<../.gitbook/assets/Screenshot 2022-02-10 113220.png>)
