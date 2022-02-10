@@ -9,13 +9,28 @@ coverY: 0
 
 # Using Polkadot.js App
 
-Head over to [this link](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Ffrost-rpc.icenetwork.io%3A9944#/explorer) to launch the app.
+To use polkadot.js app as an explorer, please follow the steps below:
 
-{% hint style="info" %}
-_**Note**: If it’s the first time you are loading this app with ICE testnet, you need to visit_ [_this link_](https://frost-rpc.icenetwork.io:9944) _for your browser to download the ssl certificate._ _If you are using **brave browser** and it does not allow to visit this link, type `thisisunsafe` after clicking in the browser body. Re-open the polkadot.js app after that and it should be working_
-{% endhint %}
+* Go to the [polkadot.js](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Ffrost-rpc.icenetwork.io%3A9944#/explorer) explorer page for Frost
+* In a separate tab, open [https://frost-rpc.icenetwork.io:9944](https://frost-rpc.icenetwork.io:9944). This is for your browser to download the ssl certificate for frost-rpc.icenetwork.io, that is used by polkadot.js web socket connection to the Frost node.
+
+You might see one of the following warnings in your browser:
+
+* **Chrome:** You might see the following warning `Your connection is not private`. Please click on **Advanced** > **Proceed to frost-rpc.icenetwork.io (unsafe)**
+
+![](<../.gitbook/assets/image (4).png>)
+
+* **Brave:** You might see the following warning `Your connection is not private`. Please type `thisisunsafe` after clicking in the browser body.
+* **Firefox:** You might see the following warning `Warning: Potential Security Risk Ahead`. Please click on **Advanced** > **Accept the risk and continue.**
+
+![](<../.gitbook/assets/Screenshot 2022-02-10 113220.png>)
+
+* You will see the following message in your browser : _WebSocket Protocol Error: Unable to parse WebSocket key_`.`This is expected.
+* Go back to the [polkadot.js](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Ffrost-rpc.icenetwork.io%3A9944#/explorer) explorer page for Frost and it will start working now.
 
 Now you are ready to query and interact with the **Frost Network** on ICE blockchain
+
+
 
 {% content-ref url="substrate-explorer-viewing-blocks-and-events.md" %}
 [substrate-explorer-viewing-blocks-and-events.md](substrate-explorer-viewing-blocks-and-events.md)

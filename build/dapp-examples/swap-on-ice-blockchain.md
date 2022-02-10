@@ -206,7 +206,7 @@ Alternatively, we can use Metamask or other wallets to directly transfer some IC
 1. You can configure your metamask to **Frost** testnet network by following this [link](../../ice-testnet-details/network-endpoints/interacting-with-frost-using-metamask.md)
 2. Send amount to contract - (use swapcontract.address)
 
-![](<../../.gitbook/assets/image (1).png>)
+![](<../../.gitbook/assets/image (1) (1).png>)
 
 After verifying there is some ICZ in the **SwapContract**, we can now sell our USDC. Before moving on with selling we must approve our **SwapContract** such that the transfer can be made on behalf of us.
 
