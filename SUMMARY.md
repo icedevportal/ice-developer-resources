@@ -23,7 +23,9 @@
 ## 🧊 Polkadot.js app
 
 * [Using Polkadot.js App](polkadot.js-app/using-polkadot.js-app.md)
-* [Substrate Explorer: Viewing Blocks and Events](polkadot.js-app/substrate-explorer-viewing-blocks-and-events.md)
+* [Explorer](polkadot.js-app/explorer/README.md)
+  * [View Blocks and Events](polkadot.js-app/explorer/view-blocks-and-events.md)
+  * [View transactions](polkadot.js-app/explorer/view-transactions.md)
 * [Making EVM RPC calls](polkadot.js-app/making-evm-rpc-calls.md)
 * [Advanced](polkadot.js-app/advanced.md)
 

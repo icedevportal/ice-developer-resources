@@ -1,9 +1,4 @@
----
-cover: ../.gitbook/assets/1_W0eKVsybZ6TdxV8UYJX5Yg_midpolkadotjs.jpg
-coverY: 0
----
-
-# Substrate Explorer: Viewing Blocks and Events
+# View Blocks and Events
 
 * To view recent blocks and events, select the Explorer option from the Network dropdown in the Navigation Bar.&#x20;
 * Click on the block number on the “recent blocks” panel to view the details of that block.&#x20;

@@ -4,6 +4,8 @@ description: Swap between native blockchain token(ICZ) and ERC-20 token.
 
 # Swap on ICE Blockchain
 
+In this example, we will be creating a Dapp that will allow a user to swap tokens on the ICE network. For this example, we will be able to swap native ICZ token with a ERC-20 (USDC) token and vice versa.
+
 ### Implementation of contracts
 
 #### **ERC-20 Contract**

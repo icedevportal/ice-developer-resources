@@ -73,7 +73,7 @@ Now you can use [polkadot explorer ](https://polkadot.js.org/apps/?rpc=ws%3A%2F%
 * **HTTP** - `http://127.0.0.1:9933`
 
 {% hint style="info" %}
-**NOTE: **_**** More about using polkadot explorer is_ [_here_](../polkadot.js-app/substrate-explorer-viewing-blocks-and-events.md)__
+**NOTE: **_**** More about using polkadot explorer is_ [_here_](../polkadot.js-app/explorer/)__
 {% endhint %}
 
 ### Configuring Metamask
