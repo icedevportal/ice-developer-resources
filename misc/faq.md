@@ -1,5 +1,7 @@
 ---
 description: 'Frequently Asked Questions :'
+cover: ../.gitbook/assets/ICE-Cicles (1).gif
+coverY: 0
 ---
 
 # FAQ
