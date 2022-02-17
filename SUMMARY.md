@@ -35,3 +35,7 @@
   * [Interacting with Frost Using Metamask](ice-testnet-details/network-endpoints/interacting-with-frost-using-metamask.md)
 * [Accounts Mapping](ice-details/accounts-mapping.md)
 * [Faucet](ice-details/faucet.md)
+
+## 🧊 Misc
+
+* [FAQ](misc/faq.md)
