@@ -61,3 +61,12 @@ ICE will compete for a parachain slot on the Polkadot ecosystem, enabling ICE to
 Thus, ICE is going to be one of the most connected blockchains.
 
 </details>
+
+<details>
+
+<summary>What is SNOW Network?</summary>
+
+The goal with ICE is to secure a Polkadot parachain slot. In the Polkadot ecosystem, many projects launch on Kusama (Polkadot’s canary network) before competing for a Polkadot parachain slot. For example, Moonriver on Kusama is the canary network to Moonbeam on Polkadot. ICE will employ a similar strategy by first launching the SNOW canary network on Kusama before targeting an ICE launch on Polkadot later on.\
+Since SNOW is a separate network from ICE, it will not use the $ICY token. Instead the SNOW canary network will have its own token–$ICZ.
+
+</details>
