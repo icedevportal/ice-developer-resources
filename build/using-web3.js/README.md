@@ -9,7 +9,7 @@ coverY: 0
 
 # Using Web3.js
 
-[Web3.js](https://web3js.readthedocs.io/en/v1.7.0/index.html) lets us to carry out the second obligation, which is to create clients that communicate with The Ethereum Blockchain. It is a set of libraries that enable you to accomplish tasks like as sending Ether from one account to another, reading and writing data from smart contracts, creating smart contracts, and much more.
+[Web3.js](https://web3js.readthedocs.io/en/v1.7.0/index.html) is a library that lets us create clients that communicate with any EVM compatible Blockchain. It is a set of libraries that enable you to accomplish tasks like as sending funds from one account to another, reading and writing data from smart contracts, creating smart contracts, and much more.
 
 Here we will write a smart contract which simply increases and decreases a count variable and the deploy the smart contract on ICE's network and interact with it using web3.js
 
