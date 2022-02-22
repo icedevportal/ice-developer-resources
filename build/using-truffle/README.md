@@ -8,6 +8,8 @@ coverY: 0
 
 # Using Truffle
 
+[Truffle](https://trufflesuite.com/truffle/) is a development environment centered on the Ethereum Blockchain. Truffle is a one-stop shop for developing DApps. It facilitates with Compiling Contracts, Deploying Contracts, Injecting it into a Web App, Creating Front-End for DApps, and Testing.
+
 ### Install truffle globally
 
 ```

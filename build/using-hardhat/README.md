@@ -8,6 +8,8 @@ coverY: 0
 
 # Using Hardhat
 
+[Hardhat](https://hardhat.org) is a development environment that allows developers to test, compile, deploy, and debug dApps based on EVM. It helps developers in managing many of the responsibilities associated with constructing dApps and smart contracts. Because hardhat can interface directly with ICE's ethereum api, it can be used to deploy smart contract on ICE network.
+
 Here we are going to deploy an ERC-20 contract using openzeppelin.
 
 ### Create Project
