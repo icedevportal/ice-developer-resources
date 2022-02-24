@@ -29,6 +29,11 @@
 * [Making EVM RPC calls](polkadot.js-app/making-evm-rpc-calls.md)
 * [Advanced](polkadot.js-app/advanced.md)
 
+## 🧊 Token Economics
+
+* [Tokens and Balances](token-economics/introduction/README.md)
+  * [Existential Deposit](token-economics/introduction/existential-deposit.md)
+
 ## 🧊 ICE (testnet) Details
 
 * [Network Endpoints](ice-testnet-details/network-endpoints/README.md)
