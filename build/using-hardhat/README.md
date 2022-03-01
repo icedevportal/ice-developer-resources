@@ -83,7 +83,7 @@ module.exports = {
   solidity: "0.8.2",
   networks: {
     testnet: {
-      url: `http://frost-rpc.icenetwork.io:9933`,
+      url: `https://frost-rpc.icenetwork.io:9933`,
       accounts: [`0x${ICE_PRIVATE_KEY}`]
     }
   }

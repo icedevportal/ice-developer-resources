@@ -17,7 +17,7 @@ const Web3 = require('web3');
 const { abi } = require('./compile');
 
 const providerRPC = {
-  development: 'http://frost-rpc.icenetwork.io:9933'
+  development: 'https://frost-rpc.icenetwork.io:9933'
 };
 const web3 = new Web3(providerRPC.development);
 

@@ -55,7 +55,7 @@ module.exports = {
         }
         return new HDWalletProvider({
           privateKeys: [privateKeyTest],
-          providerOrUrl: 'http://frost-rpc.icenetwork.io:9933',
+          providerOrUrl: 'https://frost-rpc.icenetwork.io:9933',
         });
       },
       network_id: 42,

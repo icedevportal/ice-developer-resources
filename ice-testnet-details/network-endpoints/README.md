@@ -10,15 +10,15 @@ The documentation corresponding contains details for the RPC - HTTP, WSS endpoin
 
 {% tabs %}
 {% tab title="Frost Network" %}
-|                  |                                                                                     |
-| ---------------- | ----------------------------------------------------------------------------------- |
-| **Network name** | Frost Network                                                                       |
-| **Parent chain** | None (standalone network)                                                           |
-| **Parachain ID** | N/A                                                                                 |
-| **Endpoints**    | <p>http://frost-rpc.icenetwork.io:9933</p><p>wss://frost-rpc.icenetwork.io:9944</p> |
-| **Chain ID**     | 553                                                                                 |
-| **Symbol**       | ICZ                                                                                 |
-| **EVM RPC**      | http://frost-rpc.icenetwork.io:9933                                                 |
+|                  |                                                                                      |
+| ---------------- | ------------------------------------------------------------------------------------ |
+| **Network name** | Frost Network                                                                        |
+| **Parent chain** | None (standalone network)                                                            |
+| **Parachain ID** | N/A                                                                                  |
+| **Endpoints**    | <p>https://frost-rpc.icenetwork.io:9933</p><p>wss://frost-rpc.icenetwork.io:9944</p> |
+| **Chain ID**     | 553                                                                                  |
+| **Symbol**       | ICZ                                                                                  |
+| **EVM RPC**      | https://frost-rpc.icenetwork.io:9933                                                 |
 {% endtab %}
 
 {% tab title="Arctic Network" %}

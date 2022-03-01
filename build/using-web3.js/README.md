@@ -124,7 +124,7 @@ const account_from = {
 };
 
 const rpcProvider = {
-  development: 'http://frost-rpc.icenetwork.io:9933'
+  development: 'https://frost-rpc.icenetwork.io:9933'
 }
 
 const bytecode = contractFile.evm.bytecode.object;
