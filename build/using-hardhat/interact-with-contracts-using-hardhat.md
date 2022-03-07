@@ -34,7 +34,7 @@ await myToken.transfer('0x758e3ACDBFb3818d49587418241E29E257Bd9308', 100)
 
 You will get output similar to this:
 
-![](<../../.gitbook/assets/image (2) (1) (1).png>)
+![](<../../.gitbook/assets/image (2) (1) (1) (1).png>)
 
 {% hint style="info" %}
 NOTE: We initially pre-minted 1000 tokens so we can transfer upto 1000 token without minting another token
