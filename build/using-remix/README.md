@@ -1,3 +1,8 @@
+---
+cover: ../../.gitbook/assets/ice+remix.png
+coverY: 0
+---
+
 # Using Remix
 
 Remix is one of the most popular Ethereum programming environments for smart contracts. And due to ICE's Ethereum compatibility, Remix can be directly used to deploy smart contracts on ICE testnet or ICE development node
