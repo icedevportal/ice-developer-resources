@@ -2,6 +2,8 @@
 description: >-
   This article will show you how to interact with recently deployed smart
   contract on ice using remix
+cover: ../../.gitbook/assets/ice+remix.png
+coverY: 0
 ---
 
 # Interact with smart contract using Remix
