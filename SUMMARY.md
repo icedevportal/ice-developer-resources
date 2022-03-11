@@ -41,6 +41,7 @@
   * [Interacting with Frost Using Metamask](ice-testnet-details/network-endpoints/interacting-with-frost-using-metamask.md)
 * [Accounts Mapping](ice-details/accounts-mapping.md)
 * [Faucet](ice-details/faucet.md)
+* [Architecture: PoA and NPoS](ice-testnet-details/architecture-poa-and-npos.md)
 
 ## 🧊 Misc
 
