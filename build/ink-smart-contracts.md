@@ -43,7 +43,7 @@ brew install binaryen
 
 ### **Creating Flipper Contract**
 
-We shall create a simple “Flipper” contract, which allows users to store, retrieve and toggle a boolean value.
+We shall create a simple “[Flipper](https://github.com/paritytech/ink/blob/v3.0.0-rc8/examples/flipper/lib.rs)” contract, which allows users to store, retrieve and toggle a boolean value.
 
 In your working directory, run:
 
