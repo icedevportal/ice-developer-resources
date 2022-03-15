@@ -2,7 +2,7 @@
 description: >-
   This article will show you how to interact with recently deployed smart
   contract on ice using remix
-cover: ../../.gitbook/assets/ice+remix.png
+cover: ../../../.gitbook/assets/ice+remix.png
 coverY: 0
 ---
 
@@ -34,4 +34,4 @@ If everything goes successful, you will be able to see similar output in remix *
 
 
 
-![](../../.gitbook/assets/remixbalance.png)
+![](../../../.gitbook/assets/remixbalance.png)

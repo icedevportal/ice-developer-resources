@@ -1,5 +1,5 @@
 ---
-cover: ../../.gitbook/assets/ice+remix.png
+cover: ../../../.gitbook/assets/ice+remix.png
 coverY: 0
 ---
 
@@ -16,7 +16,7 @@ For this process, make sure you meet the following prerequisite requirements:
 * Metamask configured to ICE testnet node
 
 {% hint style="info" %}
-Head over to [Network](../../ice-testnet-details/network-endpoints/) page to configure your account and to [Facuet](../../ice-details/faucet.md) regarding funding information
+Head over to [Network](../../../ice-testnet-details/network-endpoints/) page to configure your account and to [Facuet](../../../ice-details/faucet.md) regarding funding information
 {% endhint %}
 
 ### Getting started with Remix
@@ -58,7 +58,7 @@ Remix will download all the openzeppelin dependencies and compiles the contract
 
 * Deploy the contract
   1. Navigate to the deploy and run transaction tab from left side navigation
-  2. Change the environment to injected web3 from **Environment** dropdown. This will invoke the metamask extension in your browser. Make sure your metamask is configured to ice testnode ([configure metamask](../../ice-testnet-details/network-endpoints/interacting-with-frost-using-metamask.md)).
+  2. Change the environment to injected web3 from **Environment** dropdown. This will invoke the metamask extension in your browser. Make sure your metamask is configured to ice testnode ([configure metamask](../../../ice-testnet-details/network-endpoints/interacting-with-frost-using-metamask.md)).
   3. Select the account from metamask and confirm the connection
   4. From contracts dropdown select MyToken.sol and click on **Deploy** button
 

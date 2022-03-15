@@ -2,7 +2,7 @@
 description: >-
   This article will show you how to compile, deploy, and interact with smart
   contracts using Hardhat on ICE testnode
-cover: ../../.gitbook/assets/1_W0eKVsybZ6TdxV8UYJX5Yg_midhardhat.jpg
+cover: ../../../.gitbook/assets/1_W0eKVsybZ6TdxV8UYJX5Yg_midhardhat.jpg
 coverY: 0
 ---
 
@@ -41,7 +41,7 @@ npx hardhat
 
 select `Create an empty hardhat.config.js` with your keyboard and hit enter
 
-![](../../.gitbook/assets/hardhat.png)
+![](../../../.gitbook/assets/hardhat.png)
 
 ### Create Smart Contract
 
