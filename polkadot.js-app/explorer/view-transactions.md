@@ -51,7 +51,7 @@ We have transferred **5 ICZ** from **0x7c0f5f59a22b657c8d9e21b44d2dc0118fd2be7b*
 
 Next you will be able to see the transaction details as shown in the figure:
 
-![](<../../.gitbook/assets/image (4).png>)
+![](<../../.gitbook/assets/image (4) (1).png>)
 
 Here we can see we have transferred ICZ                                                                                              **from**: 0x7c0f5f59a22b657c8d9e21b44d2dc0118fd2be7b                                                                     **to**: 0x223fe7e9ca68fdb858cf8397870e61d4b58f3a0a
 
