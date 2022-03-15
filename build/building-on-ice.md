@@ -16,17 +16,17 @@ Following are some sections that might help you get started to build:
 
 ### Smart Contracts on EVM
 
-* [Hardhat](evm-and-solidity/using-hardhat/): Overview on how to deploy smart contracts using Hardhat and interact with smart contracts.
-* [Truffle](evm-and-solidity/using-truffle/): Overview on how to deploy smart contracts using Truffle and interact with smart contracts.
-* [Web3.js](evm-and-solidity/using-web3.js/): Overview on how to deploy smart contracts using web3.js and interact with smart contracts.
-* [Openzeppelin](evm-and-solidity/using-hardhat/): An example on how openzeppelin library can be used to write Solidity contracts on ICE.
+* [Hardhat](evm-and-solidity-smart-contracts/using-hardhat/): Overview on how to deploy smart contracts using Hardhat and interact with smart contracts.
+* [Truffle](evm-and-solidity-smart-contracts/using-truffle/): Overview on how to deploy smart contracts using Truffle and interact with smart contracts.
+* [Web3.js](evm-and-solidity-smart-contracts/using-web3.js/): Overview on how to deploy smart contracts using web3.js and interact with smart contracts.
+* [Openzeppelin](evm-and-solidity-smart-contracts/using-hardhat/): An example on how openzeppelin library can be used to write Solidity contracts on ICE.
 * [Metamask:](../ice-testnet-details/network-endpoints/interacting-with-frost-using-metamask.md) Guide on how to integrate Metamask into ICE
 
 ### Tools
 
 * [Faucet](../ice-details/faucet.md): To fund your account with testnet tokens
 * [Polkadot explorer](broken-reference)
-* [Remix](evm-and-solidity/using-remix/): Guide on how to use Remix to write Solidity contracts and deploy on the ICE network
+* [Remix](evm-and-solidity-smart-contracts/using-remix/): Guide on how to use Remix to write Solidity contracts and deploy on the ICE network
 
 ### Resources
 
