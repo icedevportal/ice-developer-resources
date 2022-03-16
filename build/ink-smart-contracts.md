@@ -75,7 +75,7 @@ After executing the above command, you should see **three files inside “target
 >
 > ```
 > scale-info = { version = "2", default-features = false, features = ["derive"], optional = true } 
-> scale = { package = "parity-scale-codec", version = "3", default-features = false, features = ["derive", "full"]
+> scale = { package = "parity-scale-codec", version = "3", default-features = false, features = ["derive", "full"]}
 > ```
 
 * You can also run tests for the contract by executing the following command:
