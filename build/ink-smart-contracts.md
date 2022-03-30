@@ -99,14 +99,14 @@ With this pattern, contract code like the ERC20 standard can be put on the block
 
 Creating an instance of Ink! contracts on Frost Network will create a new AccountId (a wallet/account) which will store any balance managed by the smart contract and allow users to interact with the contract. Therefore, the contract balance should be greater than the Existensial Deposit required by the Frost Network
 
-Head over to the [PolkadotJs App](https://polkadot.js.org/apps/)  to deploy the compiled flipper contract.&#x20;
+Head over to the [PolkadotJs App  ](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Ffrost-rpc.icenetwork.io%3A9944#/explorer)to deploy the compiled flipper contract.&#x20;
 
 * On the top Navbar, select _**Developer-**_> _**Contracts**_.
 
 ![](<../.gitbook/assets/image (5).png>)
 
 * Select “Upload & deploy code” button.
-* On the popup, Select the wallet to deploy the contract from, choose the “flipper.contract” file that was created after compiling the flipper contract, and give a proper name to the contract for display purpose.
+* On the popup, select the wallet to deploy the contract from, choose the “flipper.contract” file that was created after compiling the flipper contract, and give a proper name to the contract for display purpose.
 
 ![](https://lh3.googleusercontent.com/M1vB8lLEuIto7\_8e2FNHpZ4vsI2gsQ4bZi8Fif66a35YB0lif74OIZXjEsToDyE\_Y\_\_7mD7R-m5VZlWHvGENevnnmZm9NXtZ9SJwAOY7X\_FjUN7LALEcEbjs5hiU6Yk3DCLOOsRl)
 
