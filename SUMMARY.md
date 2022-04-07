@@ -18,6 +18,7 @@
     * [Interact with contracts using web3.js](build/evm-and-solidity-smart-contracts/using-web3.js/interact-with-contracts-using-web3.js.md)
   * [Using Remix](build/evm-and-solidity-smart-contracts/using-remix/README.md)
     * [Interact with smart contract using Remix](build/evm-and-solidity-smart-contracts/using-remix/interact-with-smart-contract-using-remix.md)
+  * [Using OpenZeppelin](build/evm-and-solidity-smart-contracts/using-openzeppelin.md)
   * [Events Subscription](build/evm-and-solidity-smart-contracts/events-subscription.md)
   * [Dapp examples](build/evm-and-solidity-smart-contracts/dapp-examples/README.md)
     * [Swap on ICE Blockchain](build/evm-and-solidity-smart-contracts/dapp-examples/swap-on-ice-blockchain.md)
