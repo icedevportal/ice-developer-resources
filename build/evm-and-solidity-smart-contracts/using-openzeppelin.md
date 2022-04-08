@@ -5,37 +5,37 @@ coverY: 0
 
 # Using OpenZeppelin
 
-OpenZeppelin is an open source framework built of reusable Ethereum smart contracts. The framework enables smart contract developers to limit the risk of vulnerabilities in their distributed applications (dApps) by utilizing standard, tested, community-reviewed code. It provides security tools to develop, automate, and run decentralized applications. All of OpenZeppelin's contracts and libraries may be deployed without any changes because of ICE's Ethereum compatibility.
+OpenZeppelin is an open-source framework built on reusable Ethereum smart contracts. The framework enables smart contract developers to limit the risk of vulnerabilities in their distributed applications (dApps) by utilizing standard, tested, community-reviewed code. It provides security tools to develop, automate, and run decentralized applications. All of OpenZeppelin's contracts and libraries may be deployed without any changes because of ICE's Ethereum compatibility.
 
-Find more information about OpenZeppelin on their [documentation site](https://docs.openzeppelin.com/openzeppelin/).
+You can find more information about OpenZeppelin on their [documentation site](https://docs.openzeppelin.com/openzeppelin/).
 
-In this article, we will look at how to create a ERC721 and ERC1115 standard NFT tokens using openZeppelin
+In this article, we will look at how to create an ERC721 and ERC1115 standard NFT tokens using openZeppelin
 
 You can also generate a basic smart contract code using [OpenZeppelin Contract Wizard](https://wizard.openzeppelin.com).
 
-&#x20;[OpenZeppelin Contracts Wizard](https://wizard.openzeppelin.com) is an online web-based interactive contract generating tool, which is arguably the simplest and quickest method to develop your smart contract using OpenZeppelin library.
+&#x20;[OpenZeppelin Contracts Wizard](https://wizard.openzeppelin.com) is an online web-based interactive contract generating tool, which is arguably the simplest and quickest method to develop your smart contract using the OpenZeppelin library.
 
 ### OpenZeppelin Contract Wizard
 
 ![OpenZeppelin Contract Wizard](https://lh4.googleusercontent.com/8rxyWY9FlwSU-b5AIoiuBGraGJRB-VgMhLa3i4dWlAS3ZRS-gN6O-dUBxfAJ\_BapAXXHCBoBBBTjs19xt6WkqqKsBiNxiz2gSQNQ3wubxezZeu5\_zsEk9nRHD6Cd7zfqS8QBJ9g2)
 
-As we can see, openzeppelin contract wizard is divided into various parts:
+As we can see, the openzeppelin contract wizard is divided into various parts:
 
-1. **Token standard:** Shows different standards token provided by the wizard
-2. **Settings:** Provides base setting for each standard like name, symbol, pre-mint value, base URI, etc.
-3. **Features:** Provides list of features for every token standard
-4. **Access Control:** a list of all the access control techniques available for each token standard
-5. **Upgradability:** Provides contract upgradability features.
+1. &#x20;**Token standard:** This shows different standards tokens provided by the wizard
+2. &#x20;**Settings:** Provides a base setting for each standard like name, symbol, pre-mint value, base URI, etc.
+3. &#x20;**Features:** Provides a  list of features for every token standard
+4. &#x20;**Access Control:** a list of all the access control techniques available for each token standard
+5. &#x20;**Upgradability:** Provides contract upgradability features.
 6. **Info:** Provides fields where people can contact the contract creator for any issue and another field for license
-7. **Code display area:** displays the smart contract code with the user-specified parameters.
+7. &#x20;**Code display area:** displays the smart contract code with the user-specified parameters.
 
 ### A simple ERC721 token
 
-NFTs are a new type of digital assets. They are non-fungible tokens which means that each token is unique, meaning that no two tokens are alike. The NFTs can represent ownership of in-game items, physical assets, or even just data. This special type of Token has amazing possibilities so it deserves a proper Standard, the ERC-721 came to solve that!
+NFTs are a new type of digital asset. They are non-fungible tokens which means that each token is unique, meaning that no two tokens are alike. The NFTs can represent ownership of in-game items, physical assets, or even just data. This special type of Token has amazing possibilities so it deserves a proper Standard, the ERC-721 came to solve that!
 
 This unique sort of Token has incredible potential, and it demands a suitable standard; the ERC-721 was created to address this issue!
 
-The ERC-721 sets a standard for NFT, which means that this type of Token is distinct and may have a different value than another Token from the same Smart Contract, maybe related to its age or rarity.
+The ERC-721 sets a standard for NFT, which means that this type of Token is distinct and may have a different value than another Token from the same Smart Contract, which may be related to its age or rarity.
 
 The ERC721 smart contract below is created using contract wizard:
 
@@ -65,9 +65,9 @@ You can go on and deploy this contract on frost testnet using Remix IDE by follo
 
 ### GameCard NFT
 
-Now let's use ERC721 standard to create a collectables called 'GameCard'. Each GameCard will be owned by someone. Here, we will provide a 'GameCard' to a player. i.e. Each card will be minted and sent to a player's address. Players have the option of keeping their token or transferring it to other players.
+Now let's use ERC721 standard to create a collectible called 'GameCard'. Each GameCard will be owned by someone. Here, we will provide a 'GameCard' to a player. i.e. Each card will be minted and sent to a player's address. Players have the option of keeping their token or transferring it to other players.
 
-Here's what contract looks like:
+Here's what the contract looks like:
 
 ```
 // SPDX-License-Identifier: MIT
@@ -97,19 +97,19 @@ The GameCard token is initialized with a token name **GameItem** and a symbol **
 
 **Counter** is also imported from openzeppelin which is a simple way to get a counter that can only be incremented or decremented.
 
-**CreateItem** function simply mints the token to the given adderess and returns the tokenId if the minted item
+**CreateItem** function simply mints the token to the given address and returns the tokenId when the item is minted.
 
 
 
 {% hint style="info" %}
-&#x20;_Currently any account can call `createItem` to mint items. To restrict what accounts can mint items we can add_ [_Access Control_](https://docs.openzeppelin.com/contracts/4.x/access-control)_._
+&#x20;_Currently, any account can call `createItem` to mint items. To restrict what accounts can mint items we can add_ [_Access Control_](https://docs.openzeppelin.com/contracts/4.x/access-control)_._
 {% endhint %}
 
-Now you go on and deploy above contract in frost testnet using Remix IDE in injected web3 environment as demonstrated [here](using-remix/).
+Now you can go on and deploy the above contract in frost testnet using Remix IDE in injected web3 environment as demonstrated [here](using-remix/).
 
 ### ERC1155 token standard
 
-ERC1155 is a multi-token standard that enables the production of fungible, non-fungible, and semi-fungible tokens in a single contract. Prior to ERC1155, if a use case required both ERC20 (fungible) and ERC721 (non-fungible) tokens, two contracts were necessary. ERC1155 also enables the launch of several NFT collections in a single smart contract rather than developing a separate contract for each collection.
+ERC1155 is a multi-token standard that enables the production of fungible, non-fungible, and semi-fungible tokens in a single contract. Before ERC1155, if a use case required both ERC20 (fungible) and ERC721 (non-fungible) tokens, two contracts were necessary. ERC1155 also enables the launch of several NFT collections in a single smart contract rather than developing a separate contract for each collection.
 
 ERC1155 is commonly used in blockchain-based decentralized games, which require currencies and collectibles, hence it has become a standard there.
 
@@ -138,12 +138,12 @@ contract Weapon is ERC1155 {
 
 In the above smart contract, first ERC1115 is imported from openzeppelin.
 
-Then we have created a contract named **Weapon** and also created three variables Shield, Arrow and Hammer assigning each with a unique id.
+Then we have created a contract named **Weapon** and also created three variables Shield, Arrow, and Hammer assigning each with a unique id.
 
 Then we have initialized the constructor by passing tokenUri (_in our case 'test'_) which mints the different NFTs by calling function `_mint` passing the following params in it:
 
-* **msg.sender** is the address on which token will be minted. It is also the address of contract deployer.
-* Second parameter is token id,  which we have already assigned to variables like Shield. Arrow, and Hammer.
+* **msg.sender** is the address on which token will be minted. It is also the address of the contract deployer.
+* The second parameter is token id,  which we have already assigned to variables like Shield, Arrow, and Hammer
 * Third parameter is the amount of each token we want to mint, which is 1 in this case.
 * The last parameter is the data field which is kept empty here.
 
