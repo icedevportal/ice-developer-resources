@@ -1,3 +1,8 @@
+---
+cover: ../../.gitbook/assets/opezep.png
+coverY: 0
+---
+
 # Using OpenZeppelin
 
 OpenZeppelin is an open source framework built of reusable Ethereum smart contracts. The framework enables smart contract developers to limit the risk of vulnerabilities in their distributed applications (dApps) by utilizing standard, tested, community-reviewed code. It provides security tools to develop, automate, and run decentralized applications. All of OpenZeppelin's contracts and libraries may be deployed without any changes because of ICE's Ethereum compatibility.
@@ -77,10 +82,7 @@ contract GameCard is ERC721 {
 
     constructor() ERC721("GameItem", "GIT") {}
 
-    function createItem(address player)
-        public
-        returns (uint256)
-    {
+    function createItem(address player) public returns (uint256) {
         _tokenIds.increment();
 
         uint256 newItemId = _tokenIds.current();
