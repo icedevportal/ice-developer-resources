@@ -1,39 +1,14 @@
 ---
-cover: ../../.gitbook/assets/opezep.png
-coverY: 0
+description: >-
+  In this article, we will learn about creating and deploying NTFs to ICE
+  testnet network using openZeppelin
 ---
 
-# Using OpenZeppelin
+# NFTs(ERC721 & ERC1155)
 
-OpenZeppelin is an open-source framework built on reusable Ethereum smart contracts. The framework enables smart contract developers to limit the risk of vulnerabilities in their distributed applications (dApps) by utilizing standard, tested, community-reviewed code. It provides security tools to develop, automate, and run decentralized applications. All of OpenZeppelin's contracts and libraries may be deployed without any changes because of ICE's Ethereum compatibility.
-
-You can find more information about OpenZeppelin on their [documentation site](https://docs.openzeppelin.com/openzeppelin/).
-
-In this article, we will look at how to create an ERC721 and ERC1115 standard NFT tokens using openZeppelin
-
-You can also generate a basic smart contract code using [OpenZeppelin Contract Wizard](https://wizard.openzeppelin.com).
-
-&#x20;[OpenZeppelin Contracts Wizard](https://wizard.openzeppelin.com) is an online web-based interactive contract generating tool, which is arguably the simplest and quickest method to develop your smart contract using the OpenZeppelin library.
-
-### OpenZeppelin Contract Wizard
-
-![OpenZeppelin Contract Wizard](https://lh4.googleusercontent.com/8rxyWY9FlwSU-b5AIoiuBGraGJRB-VgMhLa3i4dWlAS3ZRS-gN6O-dUBxfAJ\_BapAXXHCBoBBBTjs19xt6WkqqKsBiNxiz2gSQNQ3wubxezZeu5\_zsEk9nRHD6Cd7zfqS8QBJ9g2)
-
-As we can see, the openzeppelin contract wizard is divided into various parts:
-
-1. &#x20;**Token standard:** This shows different standards tokens provided by the wizard
-2. &#x20;**Settings:** Provides a base setting for each standard like name, symbol, pre-mint value, base URI, etc.
-3. &#x20;**Features:** Provides a  list of features for every token standard
-4. &#x20;**Access Control:** a list of all the access control techniques available for each token standard
-5. &#x20;**Upgradability:** Provides contract upgradability features.
-6. **Info:** Provides fields where people can contact the contract creator for any issue and another field for license
-7. &#x20;**Code display area:** displays the smart contract code with the user-specified parameters.
+NFTs are a new type of digital asset. They are non-fungible tokens which means that each token is unique, meaning that no two tokens are alike. The NFTs can represent ownership of in-game items, physical assets, or even just data. This unique sort of Token has incredible potential, and it demands a suitable standard; the ERC721 & ERC1155 was created to address this issue.
 
 ### A simple ERC721 token
-
-NFTs are a new type of digital asset. They are non-fungible tokens which means that each token is unique, meaning that no two tokens are alike. The NFTs can represent ownership of in-game items, physical assets, or even just data. This special type of Token has amazing possibilities so it deserves a proper Standard, the ERC-721 came to solve that!
-
-This unique sort of Token has incredible potential, and it demands a suitable standard; the ERC-721 was created to address this issue!
 
 The ERC-721 sets a standard for NFT, which means that this type of Token is distinct and may have a different value than another Token from the same Smart Contract, which may be related to its age or rarity.
 
@@ -61,7 +36,7 @@ contract MyToken is ERC721, Ownable {
 
 It is a simple ERC721 mintable token, which provides a `mint` function that can only be called by the owner of the contract. By default, the owner is the contract's deployer address.
 
-You can go on and deploy this contract on frost testnet using Remix IDE by following this [link](using-remix/).
+You can go on and deploy this contract on frost testnet using Remix IDE by following this [link](../using-remix/).
 
 ### GameCard NFT
 
@@ -105,7 +80,7 @@ The GameCard token is initialized with a token name **GameItem** and a symbol **
 &#x20;_Currently, any account can call `createItem` to mint items. To restrict what accounts can mint items we can add_ [_Access Control_](https://docs.openzeppelin.com/contracts/4.x/access-control)_._
 {% endhint %}
 
-Now you can go on and deploy the above contract in frost testnet using Remix IDE in injected web3 environment as demonstrated [here](using-remix/).
+Now you can go on and deploy the above contract in frost testnet using Remix IDE in injected web3 environment as demonstrated [here](../using-remix/).
 
 ### ERC1155 token standard
 
@@ -151,11 +126,11 @@ Now let us head over to [**Remix IDE**](https://remix.ethereum.org) to compile a
 
 In a workspace, create a file named **`Weapon.sol`**
 
-![Create contract file](../../.gitbook/assets/weapon1.png)
+![Create contract file](../../../.gitbook/assets/weapon1.png)
 
 Now navigate to Compile tab on from left navigation and click on **Compile Weapon.sol** button
 
-![Compile smart contract](../../.gitbook/assets/weapon2.png)
+![Compile smart contract](../../../.gitbook/assets/weapon2.png)
 
 **To deploy the contract:**
 
@@ -165,6 +140,6 @@ Now navigate to Compile tab on from left navigation and click on **Compile Weapo
 4. Click on **Deploy**
 5. Now it will pop up metamask to confirm the transaction, **Confirm** it.
 
-![Deploy ERC1115 Token](../../.gitbook/assets/weapon3.png)
+![Deploy ERC1115 Token](../../../.gitbook/assets/weapon3.png)
 
 Now that the contract is deployed you can interact with it methods.
