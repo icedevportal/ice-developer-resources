@@ -1,8 +1,8 @@
 # Snapshot ERC20
 
-Snapshot ERC20 contract adds a snapshot mechanism to an ERC20 token. When a snapshot is taken, the current balances and total supply are saved for future use. Now, these tokens can be queried at any point in time.
+Snapshot ERC20 contract adds a snapshot mechanism to a ERC20 token. When a snapshot is taken, the current balances and total supply are saved for future use. Now, these tokens can be queried at any point in time.
 
-Snapshots are frequently utilized before each cycle of airdrop events. Tokens are given during an airdrop based on the balance of each blockchain address. In this situation, snapshots are taken to record each token holder's balance at a certain point in time (i.e., block height)
+Snapshots are frequently utilized before each cycle of airdrop events. Generally, tokens are distributed during an airdrop based on the balance of each token holder wallet address. In this situation, snapshots are taken to record each token holder's balance at a certain point in time (i.e., block height)
 
 Let's look at a simple Snapshot ERC20 token smart contract created using [OpenZeppelin Wizard](https://wizard.openzeppelin.com)
 
@@ -38,21 +38,21 @@ Here, we have created a Snapshot ERC20 token initialized with the token name 'My
 
 ### Methods
 
-**snapshot()**
+**snapshot():** Calling this functions creates a new snapshot by calling the internal function `_snapshot`. It returns a **snapshot id,** that can be later used to get state of the contract during the time of the snapshot.
 
-It creates a new snapshot by calling the internal function `_snapshot` and returns its **snapshot id.**
+**\_**`snapshot()`function emits a **Snapshot** event that contains the same id. This function is implemented inside **ERC20Snapshot.sol.**
 
-**\_**`snapshot` function emits a **Snapshot** event that contains the same id.
+****
 
-**totalSupplyAt(snapshotId)**
+**totalSupplyAt(snapshotId):** It returns the total supply at the time of a snapshot by **snapshotId.** This function is implemented inside **ERC20Snapshot.sol.**
 
-It returns the total supply at the time of a snapshot with **snapshotId**
+****
 
-**balanceOfAt(account, snapshotId)**
+**balanceOfAt(account, snapshotId):** It returns the balance of an account at the time of a snapshot with **account address** and **snapshotId.** This function is implemented inside **ERC20Snapshot.sol.**
 
-It returns the balance of an account at the time of a snapshot with **account address** and **snapshotId.**
 
-Now, you can also go on and compile, deploy and interact with the above smart contract code in Remix IDE by following the steps shown [here](../../using-remix/)
+
+You can now compile, deploy and interact with the above smart contract code in Remix IDE by following the steps shown [here](../../using-remix/)
 
 ### Reference
 
