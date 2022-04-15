@@ -24,6 +24,7 @@
       * [Mintable ERC20](build/evm-and-solidity-smart-contracts/using-openzeppelin/erc20-standard/mintable-erc20.md)
       * [Burnable ERC20](build/evm-and-solidity-smart-contracts/using-openzeppelin/erc20-standard/burnable-erc20.md)
       * [Pausable ERC20](build/evm-and-solidity-smart-contracts/using-openzeppelin/erc20-standard/pausable-erc20.md)
+      * [Snapshot ERC20](build/evm-and-solidity-smart-contracts/using-openzeppelin/erc20-standard/snapshot-erc20.md)
   * [Events Subscription](build/evm-and-solidity-smart-contracts/events-subscription.md)
   * [Dapp examples](build/evm-and-solidity-smart-contracts/dapp-examples/README.md)
     * [Swap on ICE Blockchain](build/evm-and-solidity-smart-contracts/dapp-examples/swap-on-ice-blockchain.md)
