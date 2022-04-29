@@ -59,7 +59,7 @@ The documentation corresponding contains details for the RPC - HTTP, WSS endpoin
 {% endtabs %}
 
 {% hint style="info" %}
-Only Frost Testnet is currently live, the Snow Testnet is WIP.
+Only Frost Testnet and Arctic Testnet are currently live, the Snow Testnet is WIP.
 {% endhint %}
 
 ## QuickStart

@@ -103,7 +103,7 @@ Head over to the [PolkadotJs App  ](https://polkadot.js.org/apps/?rpc=wss%3A%2F%
 
 * On the top Navbar, select _**Developer-**_> _**Contracts**_.
 
-![](<../.gitbook/assets/image (5).png>)
+![](<../.gitbook/assets/image (5) (1).png>)
 
 * Select “Upload & deploy code” button.
 * On the popup, select the wallet to deploy the contract from, choose the “flipper.contract” file that was created after compiling the flipper contract, and give a proper name to the contract for display purpose.
