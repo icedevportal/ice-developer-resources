@@ -1,3 +1,9 @@
+---
+description: >-
+  This page is preceded by a page on "Creating a Substrate Address on Arctic
+  Testnet"
+---
+
 # Receiving Test Tokens
 
 1. Once you have created an account, you should see something like this:

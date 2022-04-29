@@ -1,3 +1,7 @@
+---
+description: This page will be followed by a page on "Receiving Test Tokens"
+---
+
 # Creating a Substrate Address on Arctic Testnet
 
 1. Visit [https://polkadot.js.org/apps/#/explorer](https://polkadot.js.org/apps/#/explorer). You should see something like this:
