@@ -16,7 +16,7 @@ For this process, make sure you meet the following prerequisite requirements:
 * Metamask configured to ICE testnet node
 
 {% hint style="info" %}
-Head over to [Network](../../../ice-testnet-details/network-endpoints/) page to configure your account and to [Facuet](../../../ice-testnet-details/faucet/) regarding funding information
+Head over to [Network](../../../ice-testnet-details/network-endpoints/) page to configure your account and to [Facuet](../../../ice-details/faucet.md) regarding funding information
 {% endhint %}
 
 ### Getting started with Remix

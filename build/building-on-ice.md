@@ -24,7 +24,7 @@ Following are some sections that might help you get started to build:
 
 ### Tools
 
-* [Faucet](../ice-testnet-details/faucet/): To fund your account with testnet tokens
+* [Faucet](../ice-details/faucet.md): To fund your account with testnet tokens
 * [Polkadot explorer](broken-reference)
 * [Remix](evm-and-solidity-smart-contracts/using-remix/): Guide on how to use Remix to write Solidity contracts and deploy on the ICE network
 

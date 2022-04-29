@@ -49,7 +49,7 @@
 * [Network Endpoints](ice-testnet-details/network-endpoints/README.md)
   * [Interacting with Frost Using Metamask](ice-testnet-details/network-endpoints/interacting-with-frost-using-metamask.md)
 * [Accounts Mapping](ice-details/accounts-mapping.md)
-* [Faucet](ice-testnet-details/faucet/README.md)
+* [Faucet](ice-details/faucet.md)
   * [Creating a Substrate Address on Arctic Testnet](ice-testnet-details/faucet/creating-a-substrate-address-on-arctic-testnet.md)
   * [Receiving Test Tokens](ice-testnet-details/faucet/receiving-test-tokens.md)
 * [Architecture: PoA and NPoS](ice-testnet-details/architecture-poa-and-npos.md)

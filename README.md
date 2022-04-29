@@ -9,7 +9,9 @@ coverY: 0
 
 
 {% hint style="info" %}
-**Frost Testnet is currently live. (**[**Faucet**](https://discord.gg/Q9uJaYhJXk)**)**
+**Arctic Testnet is currently live (**[**Faucet**](ice-testnet-details/faucet/receiving-test-tokens.md)**)**
+
+**Frost Testnet is currently live, but will be deprecated.**&#x20;
 
 **NOTE: The initial implementation will lack full stability and may lead to inconsistent operations.**
 {% endhint %}

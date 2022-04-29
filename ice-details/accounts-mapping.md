@@ -42,4 +42,4 @@ During any transaction on the EVM, the funds are used by default from the mapped
 
 
 
-To fund the Ethreum/Substrate account with Faucet, Please refer[#funding-substrate-or-ethereum-account-with-icy-testnet](../ice-testnet-details/faucet/#funding-substrate-or-ethereum-account-with-icy-testnet "mention")
+To fund the Ethreum/Substrate account with Faucet, Please refer[#funding-substrate-or-ethereum-account-with-icy-testnet](faucet.md#funding-substrate-or-ethereum-account-with-icy-testnet "mention")
