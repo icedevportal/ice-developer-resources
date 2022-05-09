@@ -22,15 +22,15 @@ The documentation corresponding contains details for the RPC - HTTP, WSS endpoin
 {% endtab %}
 
 {% tab title="Arctic Network" %}
-|                  |                                                                               |
-| ---------------- | ----------------------------------------------------------------------------- |
-| **Network name** | Arctic Network                                                                |
-| **Parent chain** | Rococo                                                                        |
-| **Parachain ID** | TBA                                                                           |
-| **Endpoints**    | <p>https://arctic-rpc.icenetwork.io</p><p>wss://arctic-rpc.icenetwork.io </p> |
-| **Chain ID**     | 552                                                                           |
-| **Symbol**       | ICZ                                                                           |
-| **EVM RPC**      | https://arctic-rpc.icenetwork.io                                              |
+|                  |                                                                                        |
+| ---------------- | -------------------------------------------------------------------------------------- |
+| **Network name** | Arctic Network                                                                         |
+| **Parent chain** | Rococo                                                                                 |
+| **Parachain ID** | TBA                                                                                    |
+| **Endpoints**    | <p>https://arctic-rpc.icenetwork.io:9933</p><p>wss://arctic-rpc.icenetwork.io:9944</p> |
+| **Chain ID**     | 552                                                                                    |
+| **Symbol**       | ICZ                                                                                    |
+| **EVM RPC**      | https://arctic-rpc.icenetwork.io                                                       |
 {% endtab %}
 
 {% tab title="SNOW Network" %}
