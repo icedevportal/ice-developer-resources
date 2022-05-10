@@ -30,7 +30,7 @@ The documentation corresponding contains details for the RPC - HTTP, WSS endpoin
 | **Endpoints**    | <p>https://arctic-rpc.icenetwork.io:9933</p><p>wss://arctic-rpc.icenetwork.io:9944</p> |
 | **Chain ID**     | 552                                                                                    |
 | **Symbol**       | ICZ                                                                                    |
-| **EVM RPC**      | https://arctic-rpc.icenetwork.io                                                       |
+| **EVM RPC**      | https://arctic-rpc.icenetwork.io:9933                                                  |
 {% endtab %}
 
 {% tab title="SNOW Network" %}

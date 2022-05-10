@@ -17,11 +17,12 @@ This requires one to hold the private key to the substrate account or the Ethere
 
 #### Faucet
 
-| Network     | Link                                                                     | Note                                                                                                                             |
-| ----------- | ------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------- |
-| ICE-Testnet | Join this [Discord](https://discord.gg/Q9uJaYhJXk) link to request funds | <p>In the <code>dev-ice-faucet</code> guild,<br>type in <code>!send &#x3C;substrate/Ethereum address></code> &#x26; hit send</p> |
+| Network        | Link                                                                                                          | Note                                                                                                                             |
+| -------------- | ------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| Frost testnet  | Join this [Discord](https://discord.gg/Q9uJaYhJXk) link to request funds                                      | <p>In the <code>dev-ice-faucet</code> guild,<br>type in <code>!send &#x3C;substrate/Ethereum address></code> &#x26; hit send</p> |
+| Arctic testnet | Join this [Discord](https://discord.com/channels/880651922682560582/970759671117922366) link to request funds | <p>In the <code>dev-ice-faucet</code> guild,<br>type in <code>!send &#x3C;substrate/Ethereum address></code> &#x26; hit send</p> |
 
-* Requesting address will be provisioned with 10 ICZ tokens and a successful response.
+* Requesting address will be provisioned with **10 ICZ** tokens on **Frost** testnet and **1000 ICZ** on **Arctic** testnet and a successful response.
 * Users will have to wait for 6 hours between each request.
 
 ### Usage/Examples
