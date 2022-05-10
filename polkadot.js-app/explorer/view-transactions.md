@@ -38,7 +38,7 @@ We have transferred **5 ICZ** from **0x7c0f5f59a22b657c8d9e21b44d2dc0118fd2be7b*
 
 * Select RPC calls from the Developer dropdown option on the navigation bar.
 
-![](<../../.gitbook/assets/image (6).png>)
+![](<../../.gitbook/assets/image (6) (1).png>)
 
 #### Transaction Details
 
