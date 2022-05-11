@@ -9,6 +9,10 @@ coverY: 0
 
 # Using Polkadot.js App
 
+{% embed url="https://youtu.be/RKikWP5zVks" %}
+A step by step guide on how to get started with Polkadot{.js}, by CryptoSetups
+{% endembed %}
+
 To use polkadot.js app as an explorer:
 
 Go to the [polkadot.js](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Ffrost-rpc.icenetwork.io%3A9944#/explorer) explorer page for Frost
