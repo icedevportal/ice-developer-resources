@@ -13,6 +13,8 @@ coverY: 0
 A step by step guide on how to get started with Polkadot{.js}, by CryptoSetups
 {% endembed %}
 
+_**The following steps mention Frost network, which is the predecessor of Arctic testnet. Replace "Frost" with "Arctic" and follow the steps.**_
+
 To use polkadot.js app as an explorer:
 
 Go to the [polkadot.js](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Ffrost-rpc.icenetwork.io%3A9944#/explorer) explorer page for Frost
