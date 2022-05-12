@@ -28,4 +28,4 @@ Add the following network configuration details:
 
 ![](<../../.gitbook/assets/image (6).png>)
 
-Click on **Save** and you ready to interact with Arctic testnet using metamask
+Click on **Save** and you are ready to interact with Arctic testnet using metamask
