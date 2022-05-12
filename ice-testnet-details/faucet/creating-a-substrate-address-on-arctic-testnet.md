@@ -1,5 +1,8 @@
 ---
-description: This page will be followed by a page on "Receiving Test Tokens"
+description: >-
+  This page will be followed by a page on "Receiving Test Tokens". Scroll down
+  for a step by step guide on how to get started with Polkadot{.js}, by
+  CryptoSetups
 ---
 
 # Creating a Substrate Address on Arctic Testnet
@@ -29,3 +32,7 @@ description: This page will be followed by a page on "Receiving Test Tokens"
 5\. Add an account and follow the instructions from the modal.
 
 ![](<../../.gitbook/assets/Untitled (7).png>)
+
+{% embed url="https://youtu.be/RKikWP5zVks" %}
+A step by step guide on how to get started with Polkadot{.js}, by CryptoSetups
+{% endembed %}
