@@ -12,9 +12,9 @@ description: >-
 
 2\. You can click on the address name and it should pop up a menu on the right side. Use that menu to copy your address.
 
-3\. In the ICON Discord, make sure you have the correct roles set to be able to see #ice\_testnet\_faucet like this:
+3\. In the ICON Discord, make sure you have the correct roles set to be able to see #arctic\_testnet\_faucet like this:
 
-![](<../../.gitbook/assets/Untitled (9).png>)
+![](<../../.gitbook/assets/2022-05-12 12\_38\_44-Window.png>)
 
 4\. Once you’re able to see, type `!send` followed by your copied address. You can follow other people’s comments to see the exact format: `!send someAddressHere`
 
