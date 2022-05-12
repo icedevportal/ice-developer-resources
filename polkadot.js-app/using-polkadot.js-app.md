@@ -15,7 +15,7 @@ A step by step guide on how to get started with Polkadot{.js}, by CryptoSetups
 
 _****_
 
-To use polkadot.js app as an explorer:
+To use Polkadot.js App as an explorer:
 
 1. Go to the [polkadot.js](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Ffrost-rpc.icenetwork.io%3A9944#/explorer) explorer page for Arctic
 2. You will be forwarded to explorer page of Arctic Testnet on polkadot js, which will look like:
