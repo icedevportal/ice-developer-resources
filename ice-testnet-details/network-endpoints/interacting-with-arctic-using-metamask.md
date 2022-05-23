@@ -23,7 +23,7 @@ Add the following network configuration details:
 
 * Network Name: `Arctic`
 * RPC URL: `https://arctic-rpc.icenetwork.io:9933`
-* ChainID: `553` (hex: `0x228`)
+* ChainID: `552` (hex: `0x228`)
 * Symbol (Optional):`ICZ`
 
 ![](<../../.gitbook/assets/image (6).png>)
