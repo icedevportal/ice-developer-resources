@@ -7,7 +7,7 @@ coverY: 0
 
 Remix is one of the most popular Ethereum programming environments for smart contracts. And due to ICE's Ethereum compatibility, Remix can be directly used to deploy smart contracts on ICE testnet or ICE development node
 
-This post guides you through the process of creating and deploying smart contracts in ICE node using [Remix IDE](https://remix.ethereum.org).&#x20;
+This post guides you through the process of creating and deploying smart contracts in ICE node using [Remix IDE](https://remix.ethereum.org/).&#x20;
 
 For this process, make sure you meet the following prerequisite requirements:
 
@@ -21,7 +21,7 @@ Head over to [Network](../../../ice-testnet-details/network-endpoints/) page to 
 
 ### Getting started with Remix
 
-* Head over to [Remix IDE](https://remix.ethereum.org) official site to launch it.
+* Head over to [Remix IDE](https://remix.ethereum.org/) official site to launch it.
 * Create a workspace and a file in it named _`MyToken.Sol`_ in root directory.
 
 ![](https://lh6.googleusercontent.com/BPf2-QuVakIQXQo7AQeJHyLCNRS0hTRO7IxGnmP\_WI5l94L3iDfLSy1hY-ONm8l8PR5A0mjWHdhBPp\_CrhUsuOAFwA7C27lsX9357iY66zZEtZKtUyYLkomt-aDUvjPpw5HODPul)
@@ -47,7 +47,7 @@ contract MyToken is ERC20, Ownable {
 ```
 
 {% hint style="info" %}
-**NOTE:** This is a mintable ERC20 contract based on openzeppelin. It creates MyToken with symbol ‘MTK’ and initially mints 1000 MTK to the owner of the contract. You can generate this code from [OpenZeppelin](https://wizard.openzeppelin.com) contract wizard
+**NOTE:** This is a mintable ERC20 contract based on openzeppelin. It creates MyToken with symbol ‘MTK’ and initially mints 1000 MTK to the owner of the contract. You can generate this code from [OpenZeppelin](https://wizard.openzeppelin.com/) contract wizard
 {% endhint %}
 
 * Navigate to the solidity compiler  from the left side navigation and then click on Compile _`MyToken.sol`_
@@ -58,7 +58,7 @@ Remix will download all the openzeppelin dependencies and compiles the contract
 
 * Deploy the contract
   1. Navigate to the deploy and run transaction tab from left side navigation
-  2. Change the environment to injected web3 from **Environment** dropdown. This will invoke the metamask extension in your browser. Make sure your metamask is configured to ice testnode ([configure metamask](../../../ice-testnet-details/network-endpoints/interacting-with-frost-using-metamask.md)).
+  2. Change the environment to injected web3 from **Environment** dropdown. This will invoke the metamask extension in your browser. Make sure your metamask is configured to ICE testnet (Arctic) ([configure metamask](../../../ice-testnet-details/network-endpoints/interacting-with-arctic-using-metamask.md)).
   3. Select the account from metamask and confirm the connection
   4. From contracts dropdown select MyToken.sol and click on **Deploy** button
 

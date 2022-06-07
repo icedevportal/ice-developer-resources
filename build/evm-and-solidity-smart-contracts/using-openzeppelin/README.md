@@ -14,9 +14,9 @@ You can find more information about OpenZeppelin on their [documentation site](h
 
 In this article, we will look at how to create an ERC721 and ERC1115 standard NFT tokens using openZeppelin
 
-You can also generate a basic smart contract code using [OpenZeppelin Contract Wizard](https://wizard.openzeppelin.com).
+You can also generate a basic smart contract code using [OpenZeppelin Contract Wizard](https://wizard.openzeppelin.com/).
 
-&#x20;[OpenZeppelin Contracts Wizard](https://wizard.openzeppelin.com) is an online web-based interactive contract generating tool, which is arguably the simplest and quickest method to develop your smart contract using the OpenZeppelin library.
+&#x20;[OpenZeppelin Contracts Wizard](https://wizard.openzeppelin.com/) is an online web-based interactive contract generating tool, which is arguably the simplest and quickest method to develop your smart contract using the OpenZeppelin library.
 
 ### OpenZeppelin Contract Wizard
 

@@ -36,7 +36,7 @@ contract ERC20 {
 * **event Transfer:** It is triggered when tokens are transferred.
 * **event Approval:** It is triggered whenever `approve(address _spender, uint256 _value)` is called.
 
-In this article, we will be using [OpenZeppelin Wizard](https://wizard.openzeppelin.com) to create **mintable**, **burnable** and **pausable** ERC20 standard smart contract.
+In this article, we will be using [OpenZeppelin Wizard](https://wizard.openzeppelin.com/) to create **mintable**, **burnable** and **pausable** ERC20 standard smart contract.
 
 {% hint style="info" %}
 _Learn about components of OpenZeppelin wizard from_ [_here_](../#openzeppelin-contract-wizard)__

@@ -4,7 +4,7 @@ Mintable ERC20 tokens are those that follow the ERC20 standard completely. As a 
 
 Only contract deployer can mint new tokens
 
-Let's look at a simple mintable ERC20 token smart contract created using [OpenZeppelin Wizard](https://wizard.openzeppelin.com)
+Let's look at a simple mintable ERC20 token smart contract created using [OpenZeppelin Wizard](https://wizard.openzeppelin.com/)
 
 ```
 // SPDX-License-Identifier: MIT

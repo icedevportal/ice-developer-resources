@@ -21,7 +21,7 @@ Alternatively, one can run the script([substrate-address.js](https://github.com/
 
 ### Converting Ethereum Address to substrate address and vice-versa
 
-Head over to this [link](http://ss58-h160-convert.s3-website.us-east-2.amazonaws.com) to easily convert your Ethereum address to substrate and vice versa.
+Head over to this [link](http://ss58-h160-convert.s3-website.us-east-2.amazonaws.com/) to easily convert your Ethereum address to substrate and vice versa.
 
 Just select the input address format from the dropdown and enter the selected input format address in the input field and click on go. For example:
 

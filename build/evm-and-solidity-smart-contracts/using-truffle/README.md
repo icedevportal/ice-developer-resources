@@ -38,7 +38,7 @@ _truffle-config.js_: Truffle config file&#x20;
 
 ### Modify config file
 
-Modify truffle-config.js to add Ice test network. Also make sure to add your private key.
+Modify truffle-config.js to add ICE testnet network. Also make sure to add your private key.
 
 ```
 const HDWalletProvider = require('@truffle/hdwallet-provider');
@@ -55,10 +55,10 @@ module.exports = {
         }
         return new HDWalletProvider({
           privateKeys: [privateKeyTest],
-          providerOrUrl: 'https://frost-rpc.icenetwork.io:9933',
+          providerOrUrl: 'https://arctic-rpc.icenetwork.io:9933',
         });
       },
-      network_id: 42,
+      network_id: 552,
       timeoutBlocks: 100 // To avoid quick timeouts
     },
   },

@@ -9,24 +9,12 @@ description: API and free RPC WebSocket endpoints for the ICE community
 The documentation corresponding contains details for the RPC - HTTP, WSS endpoints.&#x20;
 
 {% tabs %}
-{% tab title="Frost Network" %}
-|                  |                                                                                      |
-| ---------------- | ------------------------------------------------------------------------------------ |
-| **Network name** | Frost Network                                                                        |
-| **Parent chain** | None (standalone network)                                                            |
-| **Parachain ID** | N/A                                                                                  |
-| **Endpoints**    | <p>https://frost-rpc.icenetwork.io:9933</p><p>wss://frost-rpc.icenetwork.io:9944</p> |
-| **Chain ID**     | 553                                                                                  |
-| **Symbol**       | ICZ                                                                                  |
-| **EVM RPC**      | https://frost-rpc.icenetwork.io:9933                                                 |
-{% endtab %}
-
 {% tab title="Arctic Network" %}
 |                  |                                                                                        |
 | ---------------- | -------------------------------------------------------------------------------------- |
 | **Network name** | Arctic Network                                                                         |
 | **Parent chain** | Rococo                                                                                 |
-| **Parachain ID** | TBA                                                                                    |
+| **Parachain ID** | 3025                                                                                   |
 | **Endpoints**    | <p>https://arctic-rpc.icenetwork.io:9933</p><p>wss://arctic-rpc.icenetwork.io:9944</p> |
 | **Chain ID**     | 552                                                                                    |
 | **Symbol**       | ICZ                                                                                    |
@@ -59,30 +47,30 @@ The documentation corresponding contains details for the RPC - HTTP, WSS endpoin
 {% endtabs %}
 
 {% hint style="info" %}
-Only Frost Testnet and Arctic Testnet are currently live, the Snow Testnet is WIP.
+**Arctic** Testnet is currently <mark style="color:green;">live.</mark>
 {% endhint %}
 
 ## QuickStart
 
-For the web3.js library, you can create a local Web3 instance and set the provider to connect to Frost (both HTTP and WS are supported):
+For the web3.js library, you can create a local Web3 instance and set the provider to connect to Arctic (both HTTP and WS are supported):
 
 ```
 const Web3 = require('web3'); // Load Web3 library
-// Create local Web3 instance - set Frost as provider
-const web3 = new Web3("https://frost-rpc.icenetwork.io")
+// Create local Web3 instance - set Arctic as provider
+const web3 = new Web3("https://arctic-rpc.icenetwork.io:9933")
 ```
 
-For the ethers.js library, define the provider by using `ethers.providers.StaticJsonRpcProvider(providerURL, {object})` and setting the provider URL to Frost:
+For the ethers.js library, define the provider by using `ethers.providers.StaticJsonRpcProvider(providerURL, {object})` and setting the provider URL to Arctic:
 
 ```
 const ethers = require('ethers');
 
-const providerURL = "https://frost-rpc.icenetwork.io";
+const providerURL = "https://arctic-rpc.icenetwork.io:9933";
 // Define Provider
 const provider = new ethers.providers.StaticJsonRpcProvider(providerURL, {
-    chainId: 553,
-    name: 'frost'
+    chainId: 552,
+    name: 'arctic'
 });
 ```
 
-Any Ethereum wallet should be able to generate a valid address for Frost Network (for example, [MetaMask](https://metamask.io)).
+Any Ethereum wallet should be able to generate a valid address for Arctic Network (for example, [MetaMask](https://metamask.io/)).

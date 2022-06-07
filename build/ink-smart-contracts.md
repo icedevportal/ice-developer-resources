@@ -1,6 +1,6 @@
 ---
 description: >-
-  This article will show you how to deploy ink! smart contracts to the Frost
+  This article will show you how to deploy ink! smart contracts to the Arctic
   testnet.
 cover: ../.gitbook/assets/ice_Ink.png
 coverY: 0
@@ -14,7 +14,7 @@ Besides Solidity, ICE also supports writing smart contracts in [Ink](https://par
 
 ### **Installing Prerequisites**
 
-* Ensure you have [installed Rust](running-ice-blockchain-locally.md#install-rust)  and [configured your Rust environment](running-ice-blockchain-locally.md#configure-your-rust-environment)
+* Ensure you have [in](running-ice-blockchain-locally.md#install-rust)Frost[stalled Rust](running-ice-blockchain-locally.md#install-rust)  and [configured your Rust environment](running-ice-blockchain-locally.md#configure-your-rust-environment)
 * Add additional Rust configuration for Ink! contracts
 
 ```
@@ -97,9 +97,9 @@ The Ink! smart contract deployment is a two step process:
 
 With this pattern, contract code like the ERC20 standard can be put on the blockchain a single time, but instantiated any number of times, thus saving storage space on the chain.
 
-Creating an instance of Ink! contracts on Frost Network will create a new AccountId (a wallet/account) which will store any balance managed by the smart contract and allow users to interact with the contract. Therefore, the contract balance should be greater than the Existensial Deposit required by the Frost Network
+Creating an instance of Ink! contracts on Arctic Network will create a new AccountId (a wallet/account) which will store any balance managed by the smart contract and allow users to interact with the contract. Therefore, the contract balance should be greater than the Existensial Deposit required by the Arctic Network
 
-Head over to the [PolkadotJs App  ](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Ffrost-rpc.icenetwork.io%3A9944#/explorer)to deploy the compiled flipper contract.&#x20;
+Head over to the [PolkadotJs App](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Farctic-rpc.icenetwork.io%3A9944#/explorer)  to deploy the compiled flipper contract.&#x20;
 
 * On the top Navbar, select _**Developer-**_> _**Contracts**_.
 

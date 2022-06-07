@@ -4,7 +4,7 @@ Snapshot ERC20 contract adds a snapshot mechanism to a ERC20 token. When a snaps
 
 Snapshots are frequently utilized before each cycle of airdrop events. Generally, tokens are distributed during an airdrop based on the balance of each token holder wallet address. In this situation, snapshots are taken to record each token holder's balance at a certain point in time (i.e., block height)
 
-Let's look at a simple Snapshot ERC20 token smart contract created using [OpenZeppelin Wizard](https://wizard.openzeppelin.com)
+Let's look at a simple Snapshot ERC20 token smart contract created using [OpenZeppelin Wizard](https://wizard.openzeppelin.com/)
 
 ```
 // SPDX-License-Identifier: MIT

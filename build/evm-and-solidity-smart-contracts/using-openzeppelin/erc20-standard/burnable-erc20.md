@@ -2,7 +2,7 @@
 
 Burnable ERC20 adds a new feature to standard ERC20 tokens that let people who have a lot of ERC20 coins destroy both their own coins and those they have an allowance for, in a way that can be seen off-chain. So burning the token implies a reduction of the total supply. But on the other hand, blockchains are immutable, so making an ERC20 burnable is achieved by sending the tokens to an address whose private keys aren't accessible to anyone and subtracting the number from the total supply in our contract.
 
-Let's look at a burnable ERC20 token smart contract generated using [OpenZeppelin Wizard](https://wizard.openzeppelin.com).
+Let's look at a burnable ERC20 token smart contract generated using [OpenZeppelin Wizard](https://wizard.openzeppelin.com/).
 
 ```
 // SPDX-License-Identifier: MIT

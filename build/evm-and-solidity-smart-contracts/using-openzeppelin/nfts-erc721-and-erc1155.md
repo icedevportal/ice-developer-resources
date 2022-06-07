@@ -36,7 +36,7 @@ contract MyToken is ERC721, Ownable {
 
 It is a simple ERC721 mintable token, which provides a `mint` function that can only be called by the owner of the contract. By default, the owner is the contract's deployer address.
 
-You can go on and deploy this contract on frost testnet using Remix IDE by following this [link](../using-remix/).
+You can go on and deploy this contract on arctic testnet using Remix IDE by following this [link](../using-remix/).
 
 ### GameCard NFT
 
@@ -80,7 +80,7 @@ The GameCard token is initialized with a token name **GameItem** and a symbol **
 &#x20;_Currently, any account can call `createItem` to mint items. To restrict what accounts can mint items we can add_ [_Access Control_](https://docs.openzeppelin.com/contracts/4.x/access-control)_._
 {% endhint %}
 
-Now you can go on and deploy the above contract in frost testnet using Remix IDE in injected web3 environment as demonstrated [here](../using-remix/).
+Now you can go on and deploy the above contract in arctic testnet using Remix IDE in injected web3 environment as demonstrated [here](../using-remix/).
 
 ### ERC1155 token standard
 
@@ -122,7 +122,7 @@ Then we have initialized the constructor by passing tokenUri (_in our case 'test
 * Third parameter is the amount of each token we want to mint, which is 1 in this case.
 * The last parameter is the data field which is kept empty here.
 
-Now let us head over to [**Remix IDE**](https://remix.ethereum.org) to compile and deploy our NFT.
+Now let us head over to [**Remix IDE**](https://remix.ethereum.org/) to compile and deploy our NFT.
 
 In a workspace, create a file named **`Weapon.sol`**
 
@@ -135,7 +135,7 @@ Now navigate to Compile tab on from left navigation and click on **Compile Weapo
 **To deploy the contract:**
 
 1. Navigate to **Deploy and Run Transaction** tab
-2. Select the environment as **Injected Web3**
+2. Select the environment as **Injected Web3** (Make sure, your metamask is configured to [Arctic testnet](../../../ice-testnet-details/network-endpoints/interacting-with-arctic-using-metamask.md))
 3. Select **Weapon.sol** contract
 4. Click on **Deploy**
 5. Now it will pop up metamask to confirm the transaction, **Confirm** it.

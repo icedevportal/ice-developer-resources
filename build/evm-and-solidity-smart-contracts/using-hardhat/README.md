@@ -1,14 +1,14 @@
 ---
 description: >-
   This article will show you how to compile, deploy, and interact with smart
-  contracts using Hardhat on ICE testnode
+  contracts using Hardhat on ICE testnet.
 cover: ../../../.gitbook/assets/1_W0eKVsybZ6TdxV8UYJX5Yg_midhardhat.jpg
 coverY: 0
 ---
 
 # Using Hardhat
 
-[Hardhat](https://hardhat.org) is a development environment that allows developers to test, compile, deploy, and debug dApps based on EVM. It helps developers in managing many of the responsibilities associated with constructing dApps and smart contracts. Because hardhat can interface directly with ICE's ethereum api, it can be used to deploy smart contract on ICE network.
+[Hardhat](https://hardhat.org/) is a development environment that allows developers to test, compile, deploy, and debug dApps based on EVM. It helps developers in managing many of the responsibilities associated with constructing dApps and smart contracts. Because hardhat can interface directly with ICE's ethereum api, it can be used to deploy smart contract on ICE network.
 
 Here we are going to deploy an ERC-20 contract using openzeppelin.
 
@@ -74,7 +74,7 @@ contract MyToken is ERC20, Ownable {
 
 ### Modify Config file
 
-Modifying hardhat configuration file, add ICE testnet entries to _<mark style="color:blue;">hardhat.config.js</mark>_ file in the url parameter.
+Modifying hardhat configuration file, add Arctic testnet entries to _<mark style="color:blue;">hardhat.config.js</mark>_ file in the url parameter.
 
 ```
 require("@nomiclabs/hardhat-waffle");
@@ -83,7 +83,7 @@ module.exports = {
   solidity: "0.8.2",
   networks: {
     testnet: {
-      url: `https://frost-rpc.icenetwork.io:9933`,
+      url: `https://arctic-rpc.icenetwork.io:9933`,
       accounts: [`0x${ICE_PRIVATE_KEY}`]
     }
   }

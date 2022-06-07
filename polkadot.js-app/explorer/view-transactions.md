@@ -6,10 +6,10 @@ description: This article  covers how to view transaction details in polkadot.js
 
 Here we will demonstrate how to view transaction details by making a transfer of some ICZ from one address to another using metamask.
 
-For this you will need a metamask account having some testnet tokens (ICZ) and configured with Frost testnet network.
+For this you will need a metamask account having some testnet tokens (ICZ) and configured with Arctic testnet network.
 
 * For funding your account with ICZ: [Faucet](../../ice-details/faucet.md)
-* For configuring your metamask to Frost testnet: [Frost testnest](../../ice-testnet-details/network-endpoints/interacting-with-frost-using-metamask.md)
+* For configuring your metamask to Arctic testnet: [Arctic testnet](../../ice-testnet-details/network-endpoints/interacting-with-arctic-using-metamask.md)
 
 ### Making a transaction using metamask
 
@@ -19,20 +19,20 @@ For this you will need a metamask account having some testnet tokens (ICZ) and c
 * Enter the **address** and the **amount** you want to send and click **Next**
 
 {% hint style="info" %}
-We have transferred **5 ICZ** from **0x7c0f5f59a22b657c8d9e21b44d2dc0118fd2be7b** to  **0x223fe7e9ca68fdb858cf8397870e61d4b58f3a0a**
+We have transferred **50 ICZ** from **0x223fe7e9ca68fdb858cf8397870e61d4b58f3a0a** to  **0x7c0f5f59a22b657c8d9e21b44d2dc0118fd2be7b**
 {% endhint %}
 
-![](../../.gitbook/assets/metamask1.png)
+![](<../../.gitbook/assets/image (2).png>)
 
 #### Getting Transaction hash
 
 * Open metamask and under **Activity** tab you will find recent transaction named **Send**, click here.
 
-![](../../.gitbook/assets/metamask2.png)
+![](../../.gitbook/assets/meta1.png)
 
 * Next a popup will appear, click on **Copy Transaction ID** to get transaction hash.
 
-![](<../../.gitbook/assets/metamask3 (1).png>)
+![](../../.gitbook/assets/meta2.png)
 
 ### Getting transaction details in polkadot.js explorer
 

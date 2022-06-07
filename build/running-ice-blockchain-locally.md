@@ -27,10 +27,10 @@ rustup update
 ### Configure your Rust environment
 
 ```
-rustup update stable
-rustup default stable
-rustup update nightly
-rustup target add wasm32-unknown-unknown --toolchain nightly
+$rustup update 1.58
+$rustup default 1.58
+$rustup toolchain add nightly-2022-01-16
+$rustup target add wasm32-unknown-unknown --toolchain nightly-2022-01-16
 ```
 
 {% hint style="info" %}
@@ -84,11 +84,11 @@ Configure network in your metamask according to following settings:
 
 * Network Name: `Ice local node`
 * RPC URL: `http://127.0.0.1:9933`
-* ChainID: `553`
+* ChainID: `552`
 * Symbol (Optional):`ICZ`
 
 {% hint style="info" %}
-**NOTE:** _More about configuring metamask is_ [_here_](../ice-testnet-details/network-endpoints/interacting-with-frost-using-metamask.md)__
+**NOTE:** _More about configuring metamask is_ [_here_](../ice-testnet-details/network-endpoints/interacting-with-arctic-using-metamask.md)__
 {% endhint %}
 
 Now you will be able to make RPC calls to the local ICE node, [deploy Solidity smart contracts](evm-and-solidity-smart-contracts/using-hardhat/), [interact with the smart contracts](evm-and-solidity-smart-contracts/using-hardhat/interact-with-contracts-using-hardhat.md).

@@ -13,5 +13,4 @@
 
 {% endhint %}
 
-![](https://lh5.googleusercontent.com/7aFmMOceVOT2le99ouWpY6xQ5O1jrN3uX1ZuSwr5ibDnbDBE7Is-\_QlTl8yhXXzZpf8Sr8eAfIwvqDMwe72C61Dhti85lXcLLdeA-gCO\_jtroW0zG1zmIK7pOvKNw3FQuEC0HNcG)
-
+![Polkadot.js Explorer](<../../.gitbook/assets/image (7).png>)

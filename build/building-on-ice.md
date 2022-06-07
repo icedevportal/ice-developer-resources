@@ -20,7 +20,7 @@ Following are some sections that might help you get started to build:
 * [Truffle](evm-and-solidity-smart-contracts/using-truffle/): Overview on how to deploy smart contracts using Truffle and interact with smart contracts.
 * [Web3.js](evm-and-solidity-smart-contracts/using-web3.js/): Overview on how to deploy smart contracts using web3.js and interact with smart contracts.
 * [Openzeppelin](evm-and-solidity-smart-contracts/using-hardhat/): An example on how openzeppelin library can be used to write Solidity contracts on ICE.
-* [Metamask:](../ice-testnet-details/network-endpoints/interacting-with-frost-using-metamask.md) Guide on how to integrate Metamask into ICE
+* [Metamask:](broken-reference) Guide on how to integrate Metamask into ICE
 
 ### Tools
 
