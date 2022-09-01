@@ -2,11 +2,11 @@
 description: >-
   This article will show you how to deploy ink! smart contracts to the Arctic
   testnet.
-cover: ../.gitbook/assets/ice_Ink.png
+cover: ../../.gitbook/assets/ice_inkNew.png
 coverY: 0
 ---
 
-# Ink! Smart Contracts
+# Create and Deploy Ink! Smart Contract
 
 Besides Solidity, ICE also supports writing smart contracts in [Ink](https://paritytech.github.io/ink-docs/)! , an embedded domain specific language (eDSL) for writing smart contracts in Rust. These smart contracts are compiled into [WebAssembly (wasm)](https://webassembly.org)  code, which is executed by the [Contracts Pallet](https://docs.substrate.io/v3/runtime/smart-contracts/#contracts-pallet)  of the ICE blockchain.
 
@@ -14,7 +14,7 @@ Besides Solidity, ICE also supports writing smart contracts in [Ink](https://par
 
 ### **Installing Prerequisites**
 
-* Ensure you have [in](running-ice-blockchain-locally.md#install-rust)Frost[stalled Rust](running-ice-blockchain-locally.md#install-rust)  and [configured your Rust environment](running-ice-blockchain-locally.md#configure-your-rust-environment)
+* Ensure you have [in](../running-ice-blockchain-locally.md#install-rust)Frost[stalled Rust](../running-ice-blockchain-locally.md#install-rust)  and [configured your Rust environment](../running-ice-blockchain-locally.md#configure-your-rust-environment)
 * Add additional Rust configuration for Ink! contracts
 
 ```
@@ -103,7 +103,7 @@ Head over to the [PolkadotJs App](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2F
 
 * On the top Navbar, select _**Developer-**_> _**Contracts**_.
 
-![](<../.gitbook/assets/image (5) (1).png>)
+![](<../../.gitbook/assets/image (5) (1).png>)
 
 * Select “Upload & deploy code” button.
 * On the popup, select the wallet to deploy the contract from, choose the “flipper.contract” file that was created after compiling the flipper contract, and give a proper name to the contract for display purpose.
@@ -122,7 +122,7 @@ It has two sections:&#x20;
 
 * The “contracts” section is the actual instance of your deployed contract. You can call its read-only method _get()_ and execute the state-changing _flip()_ method.
 
-![](<../.gitbook/assets/image (4).png>)
+![](<../../.gitbook/assets/image (4) (2).png>)
 
 ![](https://lh3.googleusercontent.com/iwbHyRuqtOhWYbUSLPcQBxTItJNRhXi4BN2ura0s8nIrL3VBJrbeCb-g5K7KQl5-Cy43oUSQvaTw9QZMeGQ06UOoohqim6mWaoK6nnV-Pb6\_sOk0GXF4CDUHRnWjoGUkA6Ca6C0W)
 

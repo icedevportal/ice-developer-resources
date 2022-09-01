@@ -13,4 +13,4 @@
 
 {% endhint %}
 
-![Polkadot.js Explorer](<../../.gitbook/assets/image (7).png>)
+![Polkadot.js Explorer](<../../.gitbook/assets/image (7) (2).png>)

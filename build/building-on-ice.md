@@ -12,7 +12,7 @@ Following are some sections that might help you get started to build:
 
 ### Ink! Smart Contracts
 
-* [Write, deploy and interact](ink-smart-contracts.md) with ink! smart contracts using [Polkadot.js app](https://polkadot.js.org/apps).
+* [Write, deploy and interact](ink-smart-contracts/create-and-deploy-ink-smart-contract.md) with ink! smart contracts using [Polkadot.js app](https://polkadot.js.org/apps).
 
 ### Smart Contracts on EVM
 

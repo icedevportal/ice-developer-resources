@@ -63,7 +63,7 @@ cargo build --release
 
 Once your node is running you should be able to see output similar to this on your terminal
 
-![](<../.gitbook/assets/image (1) (1).png>)
+![](<../.gitbook/assets/image (1) (1) (2).png>)
 
 ### Connecting to Polkadot.js
 

@@ -26,6 +26,6 @@ Add the following network configuration details:
 * ChainID: `552` (hex: `0x228`)
 * Symbol (Optional):`ICZ`
 
-![](<../../.gitbook/assets/image (6).png>)
+![](<../../.gitbook/assets/image (6) (2).png>)
 
 Click on **Save** and you are ready to interact with Arctic testnet using metamask

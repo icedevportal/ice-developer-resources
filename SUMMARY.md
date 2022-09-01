@@ -28,7 +28,10 @@
   * [Events Subscription](build/evm-and-solidity-smart-contracts/events-subscription.md)
   * [Dapp examples](build/evm-and-solidity-smart-contracts/dapp-examples/README.md)
     * [Swap on ICE Blockchain](build/evm-and-solidity-smart-contracts/dapp-examples/swap-on-ice-blockchain.md)
-* [Ink! Smart Contracts](build/ink-smart-contracts.md)
+* [Ink! Smart Contracts](build/ink-smart-contracts/README.md)
+  * [Create and Deploy Ink! Smart Contract](build/ink-smart-contracts/create-and-deploy-ink-smart-contract.md)
+  * [Ink! Smart Contract Components](build/ink-smart-contracts/ink-smart-contract-components.md)
+  * [Upgrading Ink! contracts](build/ink-smart-contracts/upgrading-ink-contracts.md)
 
 ## 🧊 Polkadot.js app
 
