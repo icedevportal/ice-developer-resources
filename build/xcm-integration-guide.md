@@ -32,8 +32,14 @@ Using [this](https://github.com/web3labs/ice-substrate/blob/main/scripts/xcm-uti
 
 The following JavaScript snippet calculates and funds paraId 2000
 
-| <p>let soverign_account_2000 = get_parachain_soveriegn_account(2000)</p><p><br>await fund(api,soverign_account_2000, new BN(9*1e15))</p> |
-| ---------------------------------------------------------------------------------------------------------------------------------------- |
+```
+let soverign_account_2000 = get_parachain_soveriegn_account(2000)
+
+await fund(api,soverign_account_2000, new BN(9*1e15))
+```
+
+|   |
+| - |
 
 **Note**: On the official Rocco Sovereign Account’s address, please fund your sovereign account using the [Rococo faucet](https://wiki.polkadot.network/docs/build-pdk#obtaining-roc).
 
@@ -41,8 +47,9 @@ The following JavaScript snippet calculates and funds paraId 2000
 
 Initiate open HRMP request between sender, paraId 2000 and recipient, paraId 2001
 
-| await open(2000, 2001, senderWsEndpoint) |
-| ---------------------------------------- |
+```
+await open(2000, 2001, senderWsEndpoint)
+```
 
 This function performs 3 actions as explained in this [tutorial](https://docs.substrate.io/reference/how-to-guides/parachains/add-hrmp-channels/):
 
@@ -53,8 +60,9 @@ This function performs 3 actions as explained in this [tutorial](https://docs.su
 
 To accept an HRMP channel request on the recipient, the following JavaScript snippet performs the required steps:
 
-| await accept(2000, 2001, recipientWsEndpoint) |
-| --------------------------------------------- |
+```
+await accept(2000, 2001, recipientWsEndpoint)
+```
 
 1. Prepares hrmpAcceptOpenChannel call for the sender, and encodes it on the relay chain.
 2. Executes the encoded call with polkadotXcm.send on the **recipient** parachain via sudo, which in turn sends an upward message to the relay chain
