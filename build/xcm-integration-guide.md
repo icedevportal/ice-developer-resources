@@ -20,7 +20,7 @@ The following instructions apply to [Arctic Testnet](https://polkadot.js.org/app
 
 As stated earlier, HRMP are unidirectional channels; each parachain is required to repeat the above 3 steps to complete a single channel registration.
 
-Using [this](https://github.com/web3labs/ice-substrate/blob/main/scripts/xcm-utils/hrmp.js) hrmp utility script, we perform all 4 steps after modifying these parameters:
+Using [this](https://github.com/web3labs/ice-substrate/blob/main/scripts/xcm-utils/hrmp.js) hrmp utility script, we perform all 3 steps after modifying these parameters:
 
 * relayWS: relay chain websocket endpoint
 * sender paraId
