@@ -64,7 +64,7 @@ await accept(2000, 2001, recipientWsEndpoint)
 1. Prepares _hrmpAcceptOpenChannel_ call for the sender, and encodes it on the relay chain.
 2. Executes the encoded call with _polkadotXcm.send_ on the **recipient** parachain via sudo, which in turn sends an upward message to the relay chain
 
-To verify that channel registration is successful, look at Developer -> ChainState -> hemp -> hrmp.hrmpChannels
+To verify that channel registration is successful, look at Developer -> ChainState -> hrmp -> hrmp.hrmpChannels
 
 ![](../.gitbook/assets/0)
 
