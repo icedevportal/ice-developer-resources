@@ -32,6 +32,7 @@
   * [Create and Deploy Ink! Smart Contract](build/ink-smart-contracts/create-and-deploy-ink-smart-contract.md)
   * [Ink! Smart Contract Components](build/ink-smart-contracts/ink-smart-contract-components.md)
   * [Upgrading Ink! contracts](build/ink-smart-contracts/upgrading-ink-contracts.md)
+* [XCM Integration Guide](build/xcm-integration-guide.md)
 
 ## 🧊 Polkadot.js app
 
