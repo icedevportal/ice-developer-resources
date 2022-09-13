@@ -57,6 +57,7 @@
   * [Creating a Substrate Address on Arctic Testnet](ice-testnet-details/faucet/creating-a-substrate-address-on-arctic-testnet.md)
   * [Receiving Test Tokens](ice-testnet-details/faucet/receiving-test-tokens.md)
 * [Architecture: NPoS](ice-testnet-details/architecture-npos.md)
+* [Transfer between EVM and Substrate Account](ice-testnet-details/transfer-between-evm-and-substrate-account.md)
 
 ## 🧊 Misc
 

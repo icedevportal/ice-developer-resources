@@ -22,7 +22,7 @@ This is similar to forward calls pattern. The only difference is that the unmatc
 
 **Example Code**: [Delegate Call](https://github.com/paritytech/ink/tree/master/examples/upgradeable-contracts/delegate-calls)
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption><p>Delegate Calls</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (2).png" alt=""><figcaption><p>Delegate Calls</p></figcaption></figure>
 
 #### 3. Update Runtime&#x20;
 
