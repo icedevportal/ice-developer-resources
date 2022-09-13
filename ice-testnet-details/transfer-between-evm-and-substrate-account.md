@@ -6,7 +6,7 @@ description: >-
 
 # Transfer between EVM and Substrate Account
 
-For this example, I have created two different accounts from two different wallets.
+For this example, we have created two different accounts from two different wallets.
 
 * H160 (from Metamask) : `0x7c0f5F59A22B657C8D9E21b44D2Dc0118fD2BE7B`
 * SS58 (form Polkadot.js):  `5Fmqx9v6SEcCjDCZvgepLTQEYtGvzBCP49EzFaJhDgmKpgWU`
@@ -47,7 +47,7 @@ _**Note:** Make sure that Metamask is configured with the_ [_arctic testnet_](ne
 
 <figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption><p>Send ICZ from H160 to SS58</p></figcaption></figure>
 
-I've transferred 100 ICZ tokens to the mapped H160 account. This token, however, will not be added to the Substrate balance of account: `5Fmqx9v6SEcCjDCZvgepLTQEYtGvzBCP49EzFaJhDgmKpgWU` immediately.
+we've transferred 100 ICZ tokens to the mapped H160 account. This token, however, will not be added to the Substrate balance of account: `5Fmqx9v6SEcCjDCZvgepLTQEYtGvzBCP49EzFaJhDgmKpgWU` immediately.
 
 This token is instead stored in the EVM deposit, which is effectively the balance of the mapped H160 account within the EVM sandbox. The original SS58 account must invoke the _**evm.withdraw**_ method to withdraw the tokens in the EVM deposit. It takes two parameters:
 
@@ -88,4 +88,4 @@ Head over to [Polakdot.js](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Farctic-
 
 <figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption><p>Send ICZ from SS58 to H160</p></figcaption></figure>
 
-Here I have transferred 100 ICZ to my H160 account, which can be directly seen in my Metamask wallet.
+Here we have transferred 100 ICZ to my H160 account, which can be directly seen in our Metamask wallet.
