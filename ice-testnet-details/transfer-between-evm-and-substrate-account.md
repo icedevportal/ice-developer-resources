@@ -1,7 +1,7 @@
 ---
 description: >-
   This article guides you through the process of transferring ICZ tokens form an
-  EVM (H160) account to a Substrate(SS58) account and vide-versa.
+  EVM (H160) account to a Substrate(SS58) account and vice-versa.
 ---
 
 # Transfer between EVM and Substrate Account
