@@ -28,7 +28,7 @@ This is similar to forward calls pattern. The only difference is that the unmatc
 
 This is the simplest approach to upgrading an Ink! contract. In this approach, we change the runtime execution code of a contract by changing its code hash to that of a new contract. It is basically replacing the old contract with new runtime logic. **Example Code**: [Set Code Hash](https://github.com/paritytech/ink/tree/master/examples/upgradeable-contracts/set-code-hash)
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Update Runtime</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (3).png" alt=""><figcaption><p>Update Runtime</p></figcaption></figure>
 
 ### Upgrading Storage&#x20;
 

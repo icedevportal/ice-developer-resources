@@ -6,7 +6,7 @@ description: >-
 
 # Interacting with Arctic Using Metamask
 
-## Configure Metamask with Arctic
+## Configure Metamask for Arctic
 
 Open Your Metamask wallet and :-
 
