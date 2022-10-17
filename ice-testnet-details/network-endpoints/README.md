@@ -22,15 +22,15 @@ The documentation corresponding contains details for the RPC - HTTP, WSS endpoin
 {% endtab %}
 
 {% tab title="SNOW Network" %}
-|                  |                                                                          |
-| ---------------- | ------------------------------------------------------------------------ |
-| **Network name** | Snow Network                                                             |
-| **Parent chain** | Kusama                                                                   |
-| **Parachain ID** | TBA                                                                      |
-| **Endpoints**    | <p>https://snow-rpc.icenetwork.io</p><p>wss://snow-rpc.icenetwork.io</p> |
-| **Chain ID**     | 551                                                                      |
-| **Symbol**       | ICZ                                                                      |
-| **EVM RPC**      | https://snow-rpc.icenetwork.io                                           |
+|                  |                                                                               |
+| ---------------- | ----------------------------------------------------------------------------- |
+| **Network name** | Snow Network                                                                  |
+| **Parent chain** | Kusama                                                                        |
+| **Parachain ID** | TBA                                                                           |
+| **Endpoints**    | <p>https://snow-rpc.icenetwork.io:9933</p><p>wss://snow-rpc.icenetwork.io</p> |
+| **Chain ID**     | 552                                                                           |
+| **Symbol**       | ICZ                                                                           |
+| **EVM RPC**      | https://snow-rpc.icenetwork.io:9933                                           |
 {% endtab %}
 
 {% tab title="ICE Network" %}
