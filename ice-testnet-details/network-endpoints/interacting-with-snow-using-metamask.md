@@ -28,6 +28,6 @@ Add the following network configuration details:
 * ChainID: `551` (hex: `0x227`)
 * Symbol (Optional):`ICZ`
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Click on **Save** and you are ready to interact with Snow mainnet using metamask

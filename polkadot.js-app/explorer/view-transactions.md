@@ -22,7 +22,7 @@ For this you will need a metamask account having some testnet tokens (ICZ) and c
 We have transferred **50 ICZ** from **0x223fe7e9ca68fdb858cf8397870e61d4b58f3a0a** to  **0x7c0f5f59a22b657c8d9e21b44d2dc0118fd2be7b**
 {% endhint %}
 
-![](<../../.gitbook/assets/image (2).png>)
+![](<../../.gitbook/assets/image (2) (2).png>)
 
 #### Getting Transaction hash
 
