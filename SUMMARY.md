@@ -52,7 +52,7 @@
 
 * [Network Endpoints](ice-testnet-details/network-endpoints/README.md)
   * [Interacting with Arctic Using Metamask](ice-testnet-details/network-endpoints/interacting-with-arctic-using-metamask.md)
-  * [Interacting with Snow Using Metamask](ice-testnet-details/network-endpoints/interacting-with-snow-using-metamask.md)
+  * [Interacting with SNOW Using Metamask](ice-testnet-details/network-endpoints/interacting-with-snow-using-metamask.md)
 * [Accounts Mapping](ice-details/accounts-mapping.md)
 * [Faucet](ice-details/faucet.md)
   * [Creating a Substrate Address on Arctic Testnet](ice-testnet-details/faucet/creating-a-substrate-address-on-arctic-testnet.md)

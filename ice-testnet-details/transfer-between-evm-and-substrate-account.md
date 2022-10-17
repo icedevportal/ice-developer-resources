@@ -100,7 +100,7 @@ Head over to [Polakdot.js](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Farctic-
 * Enter mapped SS58 address in **Send to** field (i. e `5DLri6vcHLAGAs3kQFoE8wP9cG4gHfcqmNrFVZJT2tNMQREX )`
 * Enter the **Amount** you want to send and click on **Make Transfer.**
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (2).png" alt=""><figcaption></figcaption></figure>
 
 Here we have transferred 50 ICZ to our H160 account, which can be directly seen in our Metamask wallet.
 
