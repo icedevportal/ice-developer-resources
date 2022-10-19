@@ -28,7 +28,7 @@ The documentation corresponding contains details for the RPC - HTTP, WSS endpoin
 | **Parent chain** | Kusama                                                                        |
 | **Parachain ID** | TBA                                                                           |
 | **Endpoints**    | <p>https://snow-rpc.icenetwork.io:9933</p><p>wss://snow-rpc.icenetwork.io</p> |
-| **Chain ID**     | 551                                                                           |
+| **Chain ID**     | 552                                                                           |
 | **Symbol**       | ICZ                                                                           |
 | **EVM RPC**      | https://snow-rpc.icenetwork.io:9933                                           |
 {% endtab %}
