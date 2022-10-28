@@ -19,7 +19,7 @@ This nominator-validator configuration provides high security assurances. It ena
 
 ### **NPoS on ICE and Arctic Network**
 
-The Arctic test network uses the NPoS to reach consensus among the network validators. This is achieved by using the consensus engine [Aura](https://docs.substrate.io/v3/advanced/consensus/#aura)  provided by the [Substrate](https://substrate.io/)  framework, along with [Cumulus extension pallet for Aura](https://paritytech.github.io/cumulus/cumulus\_pallet\_aura\_ext/index.html) which makes the Arctic network compatible with parachains.\
+**The Arctic test network is POA(Proof Of Authority) at the moment (Later it will make transition to NPoS)**. It will use the NPoS to reach consensus among the network validators. This is achieved by using the consensus engine [Aura](https://docs.substrate.io/v3/advanced/consensus/#aura)  provided by the [Substrate](https://substrate.io/)  framework, along with [Cumulus extension pallet for Aura](https://paritytech.github.io/cumulus/cumulus\_pallet\_aura\_ext/index.html) which makes the Arctic network compatible with parachains.\
 \
 The same consensus mechanism will be adopted by Snow and ICE network.
 
