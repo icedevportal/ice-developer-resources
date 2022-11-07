@@ -9,7 +9,9 @@ coverY: 0
 
 
 {% hint style="info" %}
-**Arctic Testnet is currently live (**[**Faucet**](ice-testnet-details/faucet/receiving-test-tokens.md)**)**
+**Arctic Testnet is currently live (**[**Faucet**](ice-testnet-details/faucet/receiving-test-tokens.md)**).**
+
+**SNOW Mainnet is now live(**[**SNOW Network**](ice-testnet-details/network-endpoints/interacting-with-snow-using-metamask.md)**).**
 
 **NOTE: The initial implementation will lack full stability and may lead to inconsistent operations.**
 {% endhint %}
