@@ -14,7 +14,7 @@ Migrating the storage V1 to V2 falls under the responsibility of the V1/V2 contr
 
 **Example Code:** [Forward Call](https://github.com/paritytech/ink/tree/master/examples/upgradeable-contracts/forward-calls)
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Forwarding Calls (Proxy Pattern)</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (3).png" alt=""><figcaption><p>Forwarding Calls (Proxy Pattern)</p></figcaption></figure>
 
 #### 2. Delegate Calls&#x20;
 
