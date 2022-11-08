@@ -12,9 +12,10 @@ To support Arctic Testnet, we are offering several explorer options:
 
 1. ****[**Epirus: EVM Explorer**](https://arctic.epirus.io)****
    * [Reference](https://docs.epirus.io)
-2. ****[**Subscan: Substrate explorer**](https://arctic.subscan.io/)****
+2. ****[**Subscan: Substrate explorer**](https://arctic.subscan.io/) ** **<mark style="color:blue;">**for arctic testnet**</mark>
+3. <mark style="color:blue;">**Subscan:**</mark> [**Substrate explorer **<mark style="color:blue;">**for S**</mark>**NOW mainnet**](https://snow.subscan.io/)<mark style="color:blue;">****</mark>
    * [Reference](https://medium.com/subscan)
-3.  ****[**Polkadot.js: Official Polkadot Explorer**](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Farctic-rpc.icenetwork.io%3A9944#/explorer)****
+4.  ****[**Polkadot.js: Official Polkadot Explorer**](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Farctic-rpc.icenetwork.io%3A9944#/explorer)****
 
     * [Reference](https://docs.icenetwork.io/polkadot.js-app/using-polkadot.js-app)
 
