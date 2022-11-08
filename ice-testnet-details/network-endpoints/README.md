@@ -48,8 +48,6 @@ The documentation corresponding contains details for the RPC - HTTP, WSS endpoin
 
 {% hint style="info" %}
 **Arctic** Testnet is currently <mark style="color:green;">live.</mark>
-
-**SNOW** mainnet is also <mark style="color:green;">live</mark>.
 {% endhint %}
 
 ## QuickStart
