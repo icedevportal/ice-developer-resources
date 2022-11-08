@@ -20,11 +20,11 @@ We have already published some medium articles which explains about **Subsquid**
 
 {% embed url="https://medium.com/@iconosphereio/indexing-dex-workshop-data-using-subsquid-f1a1f061db2" %}
 
-We have also deployed a **squid** at [http://18.176.158.245:4350/graphql](http://18.176.158.245:4350/graphql), where we have indexed **ERC721**,**ERC20** and **ERC1155** token transfers event of arctic testnet network.
+We have also deployed a **squid** at [http://18.176.158.245:4350/graphql](http://18.176.158.245:4350/graphql),where we have indexed **ERC721**,**ERC20** and **ERC1155** token transfers event of the Arctic testnet network.
 
-You can head over to [http://18.176.158.245:4350/graphql](http://18.176.158.245:4350/graphql) , which will open a GraphQL playground for playing with queries.
+You can head over to [http://18.176.158.245:4350/graphql](http://18.176.158.245:4350/graphql),which will open a GraphQL playground for playing with queries.
 
-**For eg**: let us query 10 fungible tokens (ERC20) with their name, symbol and address.
+**For example**: let us query 10 fungible tokens (ERC20) by their name, symbol, and address.
 
 ```
 query MyQuery {
