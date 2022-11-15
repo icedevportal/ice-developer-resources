@@ -2,7 +2,7 @@
 description: >-
   This article will show you how to compile, deploy, and interact with smart
   contracts using Truffle on ICE testnode.
-cover: ../../../.gitbook/assets/1_W0eKVsybZ6TdxV8UYJX5Yg_midtruffle.jpg
+cover: ../../../../.gitbook/assets/1_W0eKVsybZ6TdxV8UYJX5Yg_midtruffle.jpg
 coverY: 0
 ---
 
@@ -74,7 +74,7 @@ truffle deploy --network testnet
 
 If everything goes right, you will be able to see output like this:&#x20;
 
-![](../../../.gitbook/assets/sc1.png)
+![](../../../../.gitbook/assets/sc1.png)
 
 {% hint style="info" %}
 **NOTE**: If you get timeout errors then try adding following parameters to config file just below the network id & deploy with deploy command 2-3 times.

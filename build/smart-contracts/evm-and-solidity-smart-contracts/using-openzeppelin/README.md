@@ -2,7 +2,7 @@
 description: >-
   In this article we will learn about multiple use cases of openzeppelin
   contracts
-cover: ../../../.gitbook/assets/opezep.png
+cover: ../../../../.gitbook/assets/opezep.png
 coverY: 0
 ---
 

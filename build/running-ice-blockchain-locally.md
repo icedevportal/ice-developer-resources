@@ -91,4 +91,4 @@ Configure network in your metamask according to following settings:
 **NOTE:** _More about configuring metamask is_ [_here_](../ice-testnet-details/network-endpoints/interacting-with-arctic-using-metamask.md)__
 {% endhint %}
 
-Now you will be able to make RPC calls to the local ICE node, [deploy Solidity smart contracts](evm-and-solidity-smart-contracts/using-hardhat/), [interact with the smart contracts](evm-and-solidity-smart-contracts/using-hardhat/interact-with-contracts-using-hardhat.md).
+Now you will be able to make RPC calls to the local ICE node, [deploy Solidity smart contracts](smart-contracts/evm-and-solidity-smart-contracts/using-hardhat/), [interact with the smart contracts](smart-contracts/evm-and-solidity-smart-contracts/using-hardhat/interact-with-contracts-using-hardhat.md).

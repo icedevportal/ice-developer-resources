@@ -2,7 +2,7 @@
 description: >-
   This article will show you how to interact with recently deployed smart
   contract on ice using truffle
-cover: ../../../.gitbook/assets/1_W0eKVsybZ6TdxV8UYJX5Yg_midtruffle.jpg
+cover: ../../../../.gitbook/assets/1_W0eKVsybZ6TdxV8UYJX5Yg_midtruffle.jpg
 coverY: 0
 ---
 

@@ -14,7 +14,7 @@ Migrating the storage V1 to V2 falls under the responsibility of the V1/V2 contr
 
 **Example Code:** [Forward Call](https://github.com/paritytech/ink/tree/master/examples/upgradeable-contracts/forward-calls)
 
-<figure><img src="../../.gitbook/assets/image (2) (3).png" alt=""><figcaption><p>Forwarding Calls (Proxy Pattern)</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (3).png" alt=""><figcaption><p>Forwarding Calls (Proxy Pattern)</p></figcaption></figure>
 
 #### 2. Delegate Calls&#x20;
 
@@ -22,13 +22,13 @@ This is similar to forward calls pattern. The only difference is that the unmatc
 
 **Example Code**: [Delegate Call](https://github.com/paritytech/ink/tree/master/examples/upgradeable-contracts/delegate-calls)
 
-<figure><img src="../../.gitbook/assets/image (6) (2).png" alt=""><figcaption><p>Delegate Calls</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (2).png" alt=""><figcaption><p>Delegate Calls</p></figcaption></figure>
 
 #### 3. Update Runtime&#x20;
 
 This is the simplest approach to upgrading an Ink! contract. In this approach, we change the runtime execution code of a contract by changing its code hash to that of a new contract. It is basically replacing the old contract with new runtime logic. **Example Code**: [Set Code Hash](https://github.com/paritytech/ink/tree/master/examples/upgradeable-contracts/set-code-hash)
 
-<figure><img src="../../.gitbook/assets/image (1) (3).png" alt=""><figcaption><p>Update Runtime</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (3).png" alt=""><figcaption><p>Update Runtime</p></figcaption></figure>
 
 ### Upgrading Storage&#x20;
 

@@ -15,4 +15,4 @@ coverY: 0
 
 ### Development using Ink! (Rust)
 
-* Meet [these requirements](ink-smart-contracts/create-and-deploy-ink-smart-contract.md#installing-prerequisites)
+* Meet [these requirements](smart-contracts/ink-smart-contracts/create-and-deploy-ink-smart-contract.md#installing-prerequisites)

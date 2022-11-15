@@ -126,20 +126,20 @@ Now let us head over to [**Remix IDE**](https://remix.ethereum.org/) to compile 
 
 In a workspace, create a file named **`Weapon.sol`**
 
-![Create contract file](../../../.gitbook/assets/weapon1.png)
+![Create contract file](../../../../.gitbook/assets/weapon1.png)
 
 Now navigate to Compile tab on from left navigation and click on **Compile Weapon.sol** button
 
-![Compile smart contract](../../../.gitbook/assets/weapon2.png)
+![Compile smart contract](../../../../.gitbook/assets/weapon2.png)
 
 **To deploy the contract:**
 
 1. Navigate to **Deploy and Run Transaction** tab
-2. Select the environment as **Injected Web3** (Make sure, your metamask is configured to [Arctic testnet](../../../ice-testnet-details/network-endpoints/interacting-with-arctic-using-metamask.md))
+2. Select the environment as **Injected Web3** (Make sure, your metamask is configured to [Arctic testnet](../../../../ice-testnet-details/network-endpoints/interacting-with-arctic-using-metamask.md))
 3. Select **Weapon.sol** contract
 4. Click on **Deploy**
 5. Now it will pop up metamask to confirm the transaction, **Confirm** it.
 
-![Deploy ERC1115 Token](../../../.gitbook/assets/weapon3.png)
+![Deploy ERC1115 Token](../../../../.gitbook/assets/weapon3.png)
 
 Now that the contract is deployed you can interact with it methods.

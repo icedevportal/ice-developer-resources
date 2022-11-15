@@ -1,5 +1,5 @@
 ---
-cover: ../../.gitbook/assets/ice_inkNew.png
+cover: ../../../.gitbook/assets/ice_inkNew.png
 coverY: 0
 ---
 
