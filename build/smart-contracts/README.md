@@ -11,7 +11,7 @@ Smart contracts enable the execution of credible transactions without the involv
 
 A smart contract platform is an example of the blockchain. It can run scripts by utilizing an international network of public nodes that validate transactions without requiring users to trust one another or a central authority.
 
-ICE, being a substrate based blockchain, supports both **EVM smart contracts** using Solidity and **Ink! smart contracts** using Rust.
+ICE/SNOW, being a substrate based blockchain, supports both **EVM smart contracts** using Solidity and **Ink! smart contracts** using Rust.
 
 {% content-ref url="evm-and-solidity-smart-contracts/" %}
 [evm-and-solidity-smart-contracts](evm-and-solidity-smart-contracts/)
