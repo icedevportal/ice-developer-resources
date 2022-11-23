@@ -23,9 +23,10 @@ Add the following network configuration details:
 
 * Network Name: `Arctic`
 * RPC URL: `https://arctic-rpc.icenetwork.io:9933`
-* ChainID: `552` (hex: `0x228`)
+* Chain ID: `553` (hex: `0x229`)
 * Symbol (Optional):`ICZ`
+* Block explorer URL (Optional): `https://arctic.epirus.io`
 
-![](<../../.gitbook/assets/image (6) (2) (1).png>)
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 Click on **Save** and you are ready to interact with Arctic testnet using metamask
