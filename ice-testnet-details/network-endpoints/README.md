@@ -16,7 +16,7 @@ The documentation corresponding contains details for the RPC - HTTP, WSS endpoin
 | **Parent chain** | Rococo                                                                                 |
 | **Parachain ID** | 3025                                                                                   |
 | **Endpoints**    | <p>https://arctic-rpc.icenetwork.io:9933</p><p>wss://arctic-rpc.icenetwork.io:9944</p> |
-| **Chain ID**     | 552                                                                                    |
+| **Chain ID**     | 553                                                                                    |
 | **Symbol**       | ICZ                                                                                    |
 | **EVM RPC**      | https://arctic-rpc.icenetwork.io:9933                                                  |
 {% endtab %}
@@ -70,7 +70,7 @@ const ethers = require('ethers');
 const providerURL = "https://arctic-rpc.icenetwork.io:9933";
 // Define Provider
 const provider = new ethers.providers.StaticJsonRpcProvider(providerURL, {
-    chainId: 552,
+    chainId: 553,
     name: 'arctic'
 });
 ```
