@@ -14,7 +14,7 @@ The documentation corresponding contains details for the RPC - HTTP, WSS endpoin
 | ---------------- | -------------------------------------------------------------------------------------- |
 | **Network name** | Arctic Network                                                                         |
 | **Parent chain** | Rococo                                                                                 |
-| **Parachain ID** | 3025                                                                                   |
+| **Parachain ID** | 3015                                                                                   |
 | **Endpoints**    | <p>https://arctic-rpc.icenetwork.io:9933</p><p>wss://arctic-rpc.icenetwork.io:9944</p> |
 | **Chain ID**     | 553                                                                                    |
 | **Symbol**       | ICZ                                                                                    |
@@ -26,7 +26,7 @@ The documentation corresponding contains details for the RPC - HTTP, WSS endpoin
 | ---------------- | ----------------------------------------------------------------------------- |
 | **Network name** | Snow Network                                                                  |
 | **Parent chain** | Kusama                                                                        |
-| **Parachain ID** | TBA                                                                           |
+| **Parachain ID** | 2129                                                                          |
 | **Endpoints**    | <p>https://snow-rpc.icenetwork.io:9933</p><p>wss://snow-rpc.icenetwork.io</p> |
 | **Chain ID**     | 552                                                                           |
 | **Symbol**       | ICZ                                                                           |
