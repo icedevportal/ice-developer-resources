@@ -31,7 +31,7 @@ contract EventsDemo {
 }
 ```
 
-Assuming this contract is deployed at address **0x00Fe7CBE594FF95CaA560336D6e1B7eAC2C59eCe** on the [**Arctic network**](../../../ice-testnet-details/network-endpoints/), we can subscribe to the **contractEvent** event using the following code.
+Assuming this contract is deployed at address **0x00Fe7CBE594FF95CaA560336D6e1B7eAC2C59eCe** on the [**Arctic network**](../network-endpoints.md), we can subscribe to the **contractEvent** event using the following code.
 
 ```
 const Web3 = require('web3');
@@ -63,4 +63,4 @@ web3.eth.subscribe('logs', {
 The demonstrated code was tested with _**web3.js v1.7.1** _ and ** **_**solc v0.8.12**._
 {% endhint %}
 
-First of all, our code creates a web3 instance connected to the [**Arctic network websocket endpoint**](../../../ice-testnet-details/network-endpoints/#network-details). Then we subscribe to event logs of the deployed instance of the **EventsDemo** contract at address __ 0x00Fe7CBE594FF95CaA560336D6e1B7eAC2C59eCe, and only listen for the specific **contractEvent** being emitted. Finally, when this event is emitted by the contract, our code decodes the hex data into JS object and outputs it to the console.
+First of all, our code creates a web3 instance connected to the [**Arctic network websocket endpoint**](../network-endpoints.md#arctic-testnet). Then we subscribe to event logs of the deployed instance of the **EventsDemo** contract at address __ 0x00Fe7CBE594FF95CaA560336D6e1B7eAC2C59eCe, and only listen for the specific **contractEvent** being emitted. Finally, when this event is emitted by the contract, our code decodes the hex data into JS object and outputs it to the console.

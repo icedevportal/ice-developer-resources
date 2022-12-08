@@ -135,7 +135,7 @@ Now navigate to Compile tab on from left navigation and click on **Compile Weapo
 **To deploy the contract:**
 
 1. Navigate to **Deploy and Run Transaction** tab
-2. Select the environment as **Injected Web3** (Make sure, your metamask is configured to [Arctic testnet](../../../../ice-testnet-details/network-endpoints/interacting-with-arctic-using-metamask.md))
+2. Select the environment as **Injected Web3** (Make sure, your metamask is configured to [Arctic testnet](../../configuring-metamask.md#arctic-testnet-configuration))
 3. Select **Weapon.sol** contract
 4. Click on **Deploy**
 5. Now it will pop up metamask to confirm the transaction, **Confirm** it.

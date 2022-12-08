@@ -9,9 +9,9 @@ coverY: 0
 
 
 {% hint style="info" %}
-**Arctic Testnet is currently live (**[**Faucet**](ice-testnet-details/faucet/receiving-test-tokens.md)**).**
+**SNOW Mainnet is now live(**[**SNOW Network**](build/evm/configuring-metamask.md#snow-network-configuration)**).**
 
-**SNOW Mainnet is now live(**[**SNOW Network**](ice-testnet-details/network-endpoints/interacting-with-snow-using-metamask.md)**).**
+**Arctic Testnet is currently live (**[**Arctic Testnet Faucet**](build/faucet/receiving-test-tokens.md)**).**
 
 **NOTE: The initial implementation will lack full stability and may lead to inconsistent operations.**
 {% endhint %}
@@ -36,7 +36,5 @@ Finally, **ICE** is the only EVM-compatible parachain that is also optimized for
 
 ### Start Building on ICE
 
-Continue reading for more information on prerequisites, account funding and deployment!
-
-
+[Continue reading](build/building-on-ice.md) for more information on prerequisites, account funding and deployment!
 

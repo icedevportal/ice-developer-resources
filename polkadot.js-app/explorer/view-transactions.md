@@ -8,8 +8,9 @@ Here we will demonstrate how to view transaction details by making a transfer of
 
 For this you will need a metamask account having some testnet tokens (ICZ) and configured with Arctic testnet network.
 
-* For funding your account with ICZ: [Faucet](../../ice-details/faucet.md)
-* For configuring your metamask to Arctic testnet: [Arctic testnet](../../ice-testnet-details/network-endpoints/interacting-with-arctic-using-metamask.md)
+* For funding your account with ICZ: [Faucet](../../build/faucet/)
+* For configuring your metamask to SNOW Mainnet: [SNOW Mainnet](../../build/network-endpoints.md#snow-network)
+* For configuring your metamask to Arctic testnet: [Arctic Testnet](../../build/network-endpoints.md#arctic-testnet)
 
 ### Making a transaction using metamask
 

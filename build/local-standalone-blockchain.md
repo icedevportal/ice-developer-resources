@@ -6,32 +6,14 @@ cover: ../.gitbook/assets/ICE-Cicles.gif
 coverY: 0
 ---
 
-# Running ICE blockchain locally
+# Local Standalone Blockchain
 
 Developers looking to build smart contracts on ICE blockchain can run ICE blockchain locally, inspect the blockchain state, and test their code. Following are the steps to setup development node locally.
 
 ### Install Rust
 
-If this is the first time you are installing Rust, run the following command.
-
-```
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-```
-
-If you already have rust installed, please run the following command to update to the latest version
-
-```
-rustup update
-```
-
-### Configure your Rust environment
-
-```
-$rustup update 1.58
-$rustup default 1.58
-$rustup toolchain add nightly-2022-01-16
-$rustup target add wasm32-unknown-unknown --toolchain nightly-2022-01-16
-```
+_**If you are building the ICE/SNOW binary release manually**_, \
+follow [**this article**](https://docs.substrate.io/install/) **** to install Rust and all the the packages essential for the build process.
 
 {% hint style="info" %}
 **Depending on the OS, Wasm toolchain might require manual installation.**
@@ -41,7 +23,13 @@ E.g. on macOS (Big Sur v11.6), Wasm is added using following command
 `rustup target add wasm32-unknown-unknown --toolchain nightly-x86_64-apple-darwin`
 {% endhint %}
 
-### Clone ICE node
+### Prepare the ICE/SNOW Network binary
+
+#### Option 1: Download the ICE/SNOW binary
+
+Download the `ice-node` binary release from [here](https://github.com/web3labs/ice-substrate/releases).
+
+#### Option 2: Build the binary release
 
 The [ice-substrate ](https://github.com/web3labs/ice-substrate)repo's main branch contains the latest ICE code
 
@@ -49,7 +37,7 @@ The [ice-substrate ](https://github.com/web3labs/ice-substrate)repo's main branc
 git clone https://github.com/web3labs/ice-substrate.git
 ```
 
-### Build the development node
+Build the code with the following command, which will generate the `ice-node` executable file inside `./target/release` folder
 
 ```
 cargo build --release
@@ -58,7 +46,7 @@ cargo build --release
 ### Run the local development node
 
 ```
-./target/release/ice-node --dev
+./ice-node --dev
 ```
 
 Once your node is running you should be able to see output similar to this on your terminal
@@ -82,13 +70,13 @@ Once the node is started and running , you can configure your metamask to the te
 
 Configure network in your metamask according to following settings:
 
-* Network Name: `Ice local node`
+* Network Name: `ICE - local`
 * RPC URL: `http://127.0.0.1:9933`
-* ChainID: `552`
-* Symbol (Optional):`ICZ`
+* ChainID: `42`
+* Symbol:`ICZ`
 
 {% hint style="info" %}
-**NOTE:** _More about configuring metamask is_ [_here_](../ice-testnet-details/network-endpoints/interacting-with-arctic-using-metamask.md)__
+_Configuring metamask for SNOW/Arctic is_ [_here_](evm/configuring-metamask.md#steps)__
 {% endhint %}
 
-Now you will be able to make RPC calls to the local ICE node, [deploy Solidity smart contracts](smart-contracts/evm-and-solidity-smart-contracts/using-hardhat/), [interact with the smart contracts](smart-contracts/evm-and-solidity-smart-contracts/using-hardhat/interact-with-contracts-using-hardhat.md).
+Now you will be able to make RPC calls to the local ICE node, [deploy Solidity smart contracts](evm/evm-and-solidity-smart-contracts/using-hardhat/), [interact with the smart contracts](evm/evm-and-solidity-smart-contracts/using-hardhat/interact-with-contracts-using-hardhat.md).

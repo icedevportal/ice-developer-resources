@@ -17,12 +17,10 @@ _****_
 
 To use Polkadot.js App as an explorer:
 
-1. Go to the [polkadot.js](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Farctic-rpc.icenetwork.io%3A9944#/explorer) explorer page for Arctic
-2. You will be forwarded to explorer page of Arctic Testnet on polkadot js, which will look like:
+1. Go to the Polkadot.js explorer page for [SNOW Mainnet](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fsnow-rpc.icenetwork.io#/explorer) (or [Arctic Testnet](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Farctic-rpc.icenetwork.io%3A9944#/explorer)).
+2. You will be forwarded to explorer page of the respective network on Polkadot js, which will look like:
 
 ![Polkadot explorer for Arctic Testnet](<../.gitbook/assets/2022-05-12 13\_02\_32-Window.png>)
-
-&#x20; 3\. Now you are ready to query and interact with the **Arctic Testnet** on ICE blockchain
 
 
 

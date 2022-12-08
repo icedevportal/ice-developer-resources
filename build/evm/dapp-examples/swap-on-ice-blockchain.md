@@ -115,7 +115,7 @@ The full implementation of the code can be found in [Github](https://github.com/
 
 #### **Deploying contracts**
 
-We can deploy our contracts by following the instructions as provided in [**using hardhat**](../using-hardhat/)****
+We can deploy our contracts by following the instructions as provided in [**using hardhat**](../evm-and-solidity-smart-contracts/using-hardhat/)****
 
 We can create a deploy script to deploy the contract.
 
@@ -205,10 +205,10 @@ await myWallet.sendTransaction(tx)
 
 Alternatively, we can use Metamask or other wallets to directly transfer some ICZ to the **SwapContract**.
 
-1. You can configure your metamask to **Arctic** testnet network by following this [link](../../../../ice-testnet-details/network-endpoints/interacting-with-arctic-using-metamask.md)
+1. You can configure your metamask to **Arctic** testnet network by following this [link](../configuring-metamask.md#arctic-testnet-configuration)
 2. Send amount to contract - (use swapcontract.address)
 
-![](<../../../../.gitbook/assets/image (1) (2).png>)
+![](<../../../.gitbook/assets/image (1) (2).png>)
 
 After verifying there is some ICZ in the **SwapContract**, we can now sell our USDC. Before moving on with selling we must approve our **SwapContract** such that the transfer can be made on behalf of us.
 
