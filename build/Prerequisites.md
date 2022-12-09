@@ -12,7 +12,7 @@ coverY: 0
 
 * [Node.js](https://nodejs.org/en/) >= v14.17.3
 * [npm](https://www.npmjs.com/) >= v6.14.13
-* [Metamask extension ](https://metamask.io/)
+* [Hana Wallet](https://chrome.google.com/webstore/detail/hana-wallet/jfdlamikmbghhapbgfoogdffldioobgl) or [Metamask Wallet](https://metamask.io/)
 * Account with funds ([Arctic Testnet Faucet](faucet/))
 
 ### Development using Ink! (Rust)

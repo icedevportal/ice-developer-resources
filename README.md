@@ -9,9 +9,9 @@ coverY: 0
 
 
 {% hint style="info" %}
-**SNOW Mainnet is now live(**[**SNOW Network**](build/evm/configuring-metamask.md#snow-network-configuration)**).**
+**SNOW Mainnet is now live(**[**SNOW Network**](explorer/ice-snow-explorer.md#snow-mainnet)**).**
 
-**Arctic Testnet is currently live (**[**Arctic Testnet Faucet**](build/faucet/receiving-test-tokens.md)**).**
+**Arctic Testnet is currently live (**[**Arctic Testnet**](explorer/ice-snow-explorer.md#arctic-testnet)**).**
 
 **NOTE: The initial implementation will lack full stability and may lead to inconsistent operations.**
 {% endhint %}

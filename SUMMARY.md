@@ -3,6 +3,7 @@
 ## 🧊 Welcome
 
 * [Introduction](README.md)
+* [Wallet and Explorer](welcome/wallet-and-explorer.md)
 
 ## 🧊 Build
 
@@ -37,18 +38,17 @@
   * [Create and Deploy Ink! Smart Contract](build/ink-smart-contracts/create-and-deploy-ink-smart-contract.md)
   * [Ink! Smart Contract Components](build/ink-smart-contracts/ink-smart-contract-components.md)
   * [Upgrading Ink! contracts](build/ink-smart-contracts/upgrading-ink-contracts.md)
-* [Local Standalone Blockchain](build/local-standalone-blockchain.md)
 * [Subsquid for data indexing](build/subsquid-for-data-indexing.md)
-* [XCM Integration Guide](build/xcm-integration-guide.md)
+* [Local Standalone Blockchain](build/local-standalone-blockchain.md)
 
-## 🧊 Polkadot.js app
+## 🧊 Explorer
 
-* [Using Polkadot.js App](polkadot.js-app/using-polkadot.js-app.md)
-* [Explorer](polkadot.js-app/explorer/README.md)
-  * [View Blocks and Events](polkadot.js-app/explorer/view-blocks-and-events.md)
-  * [View transactions](polkadot.js-app/explorer/view-transactions.md)
-* [Making EVM RPC calls](polkadot.js-app/making-evm-rpc-calls.md)
-* [Advanced](polkadot.js-app/advanced.md)
+* [ICE/SNOW Explorer](explorer/ice-snow-explorer.md)
+* [Polkadot.js Explorer - Guide](explorer/polkadot.js-explorer-guide/README.md)
+  * [View Blocks and Events](explorer/polkadot.js-explorer-guide/view-blocks-and-events.md)
+  * [View EVM transactions](explorer/polkadot.js-explorer-guide/view-evm-transactions.md)
+  * [Making EVM RPC calls](explorer/polkadot.js-explorer-guide/making-evm-rpc-calls.md)
+* [Getting Started](explorer/getting-started.md)
 
 ## 🧊 Token Economics
 
@@ -59,6 +59,7 @@
 
 * [Accounts Mapping](advanced-concepts/accounts-mapping.md)
 * [Transferring Funds to and from EVM](advanced-concepts/transferring-funds-to-and-from-evm.md)
+* [XCM Integration Guide](advanced-concepts/xcm-integration-guide.md)
 
 ## 🧊 Misc
 

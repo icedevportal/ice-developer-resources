@@ -12,7 +12,7 @@ The network token for ICE will be ICY, but the Testnet denotes it as ICZ and can
 
 This requires one to hold the private key to the substrate account or the Ethereum account in request.
 
-* To create a Substrate account, refer [here](../../polkadot.js-app/using-polkadot.js-app.md) for more details on the explorer app & goto accounts tab -> Add Account, to create a new one.
+* To create a Substrate account, refer [here](../../explorer/polkadot.js-explorer-guide/) for more details on the explorer app & goto accounts tab -> Add Account, to create a new one.
 * To create an Ethereum account, use any Ethereum compatible wallets ([Metamask wallet](https://metamask.io/))
 
 #### Faucet

@@ -28,7 +28,7 @@ Add the following network configuration details:
 * ChainID: `552` (hex: `0x228`)
 * Symbol (Optional):`ICZ`
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (3).png" alt=""><figcaption></figcaption></figure>
 
 Click on **Save** and you are ready to interact with SNOW Mainnet using metamask
 
@@ -42,6 +42,6 @@ Add the following network configuration details:
 * Symbol (Optional):`ICZ`
 * Block explorer URL (Optional): `https://arctic.epirus.io`
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 Click on **Save** and you are ready to interact with Arctic testnet using metamask

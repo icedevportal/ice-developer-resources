@@ -1,33 +1,33 @@
 ---
-description: This article  covers how to view transaction details in polkadot.js explorer
+description: This article covers how to view transaction details in polkadot.js explorer
 ---
 
-# View transactions
+# View EVM transactions
 
-Here we will demonstrate how to view transaction details by making a transfer of some ICZ from one address to another using metamask.
+Here we will demonstrate how you can view details of an ICZ transfer transaction made using Metamask.
 
-For this you will need a metamask account having some testnet tokens (ICZ) and configured with Arctic testnet network.
+For this you will need a Metamask account having some testnet tokens (ICZ) and configured with Arctic testnet network.
 
 * For funding your account with ICZ: [Faucet](../../build/faucet/)
-* For configuring your metamask to SNOW Mainnet: [SNOW Mainnet](../../build/network-endpoints.md#snow-network)
-* For configuring your metamask to Arctic testnet: [Arctic Testnet](../../build/network-endpoints.md#arctic-testnet)
+* For configuring your Metamask to SNOW Mainnet: [SNOW Mainnet](../../build/network-endpoints.md#snow-network)
+* For configuring your Metamask to Arctic testnet: [Arctic Testnet](../../build/network-endpoints.md#arctic-testnet)
 
-### Making a transaction using metamask
+### Making a transaction using Metamask
 
 #### Making ICZ Transfer
 
-* Open metamask and click on **Send** button to transfer some ICZ to another account.
+* Open Metamask and click on **Send** button to transfer some ICZ to another account.
 * Enter the **address** and the **amount** you want to send and click **Next**
 
 {% hint style="info" %}
 We have transferred **50 ICZ** from **0x223fe7e9ca68fdb858cf8397870e61d4b58f3a0a** to  **0x7c0f5f59a22b657c8d9e21b44d2dc0118fd2be7b**
 {% endhint %}
 
-![](<../../.gitbook/assets/image (2) (2).png>)
+![](<../../.gitbook/assets/image (2) (2) (1).png>)
 
 #### Getting Transaction hash
 
-* Open metamask and under **Activity** tab you will find recent transaction named **Send**, click here.
+* Open Metamask and under **Activity** tab you will find recent transaction named **Send**, click here.
 
 ![](../../.gitbook/assets/meta1.png)
 
