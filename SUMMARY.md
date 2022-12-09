@@ -45,10 +45,10 @@
 
 * [ICE/SNOW Explorer](explorer/ice-snow-explorer.md)
 * [Polkadot.js Explorer - Guide](explorer/polkadot.js-explorer-guide/README.md)
+  * [Polkadot.js Extension](explorer/polkadot.js-explorer-guide/polkadot.js-extension.md)
   * [View Blocks and Events](explorer/polkadot.js-explorer-guide/view-blocks-and-events.md)
   * [View EVM transactions](explorer/polkadot.js-explorer-guide/view-evm-transactions.md)
   * [Making EVM RPC calls](explorer/polkadot.js-explorer-guide/making-evm-rpc-calls.md)
-* [Getting Started](explorer/getting-started.md)
 
 ## 🧊 Token Economics
 

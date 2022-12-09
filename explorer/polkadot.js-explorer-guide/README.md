@@ -32,6 +32,6 @@ To use Polkadot.js App as an explorer:
 [making-evm-rpc-calls.md](making-evm-rpc-calls.md)
 {% endcontent-ref %}
 
-{% content-ref url="../getting-started.md" %}
-[getting-started.md](../getting-started.md)
+{% content-ref url="polkadot.js-extension.md" %}
+[polkadot.js-extension.md](polkadot.js-extension.md)
 {% endcontent-ref %}
