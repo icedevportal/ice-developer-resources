@@ -49,11 +49,13 @@
   * [View Blocks and Events](explorer/polkadot.js-explorer-guide/view-blocks-and-events.md)
   * [View EVM transactions](explorer/polkadot.js-explorer-guide/view-evm-transactions.md)
   * [Making EVM RPC calls](explorer/polkadot.js-explorer-guide/making-evm-rpc-calls.md)
+* [Epirus EVM Explorer](explorer/epirus-evm-explorer/README.md)
+  * [Verifying Solidity Contracts](explorer/epirus-evm-explorer/verifying-solidity-contracts.md)
 
 ## 🧊 Token Economics
 
 * [SNOW Tokenomics](token-economics/snow-tokenomics.md)
-* [Existential Deposit](token-economics/existential-deposit.md)
+* [Existential Deposit](token-economics/introduction/existential-deposit.md)
 
 ## 🧊 Advanced Concepts
 

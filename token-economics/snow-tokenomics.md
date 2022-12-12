@@ -6,7 +6,7 @@ description: ICZ Token Allocation on SNOW Mainnet
 
 ## SNOW Token Allocation
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>SNOW Token Allocation with post-crowdloan incentives</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption><p>SNOW Token Allocation with post-crowdloan incentives</p></figcaption></figure>
 
 The **total supply** of ICZ is **2.66 Billion**, with token allocations that can be derived into 4 categories:
 

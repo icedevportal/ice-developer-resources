@@ -20,7 +20,7 @@ You can use [**Hana Wallet**](https://chrome.google.com/webstore/detail/hana-wal
 2. Select **SNOW (mainnet/testnet)** option on the **Input address format** field.
 3.  Enter the **receiving** **SNOW account address** and click on **Go!**.
 
-    <figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption><p>Converting SNOW Address to H160 address format</p></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (3) (2).png" alt=""><figcaption><p>Converting SNOW Address to H160 address format</p></figcaption></figure>
 4. Copy the **mapped H160 address** and send the desired amount of ICZ to this address.
 5. The **receiver wallet** should now call the **EVM pallet's  `withdraw`** extrinsic with the following parameter:
 
@@ -37,6 +37,6 @@ This can be achieved via **Polkadot.js app** (_Developer -> Extrinsic -> EVM -> 
 
 or from **within Hana wallet**.
 
-<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 6\. The received ICZ will be shown on the **receiver** **Ethereum (H160) account**.\
