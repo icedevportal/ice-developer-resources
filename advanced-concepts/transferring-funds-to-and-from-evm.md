@@ -37,6 +37,6 @@ This can be achieved via **Polkadot.js app** (_Developer -> Extrinsic -> EVM -> 
 
 or from **within Hana wallet**.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
 6\. The received ICZ will be shown on the **receiver** **Ethereum (H160) account**.\

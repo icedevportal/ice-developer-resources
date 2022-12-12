@@ -52,8 +52,8 @@
 
 ## 🧊 Token Economics
 
-* [Tokens and Balances](token-economics/introduction/README.md)
-  * [Existential Deposit](token-economics/introduction/existential-deposit.md)
+* [SNOW Tokenomics](token-economics/snow-tokenomics.md)
+* [Existential Deposit](token-economics/existential-deposit.md)
 
 ## 🧊 Advanced Concepts
 
