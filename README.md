@@ -36,5 +36,5 @@ Finally, **ICE** is the only EVM-compatible parachain that is also optimized for
 
 ### Start Building on ICE
 
-[Continue reading](build/building-on-ice.md) for more information on prerequisites, account funding and deployment!
+[Continue reading](build/Prerequisites.md) for more information on prerequisites, account funding and deployment!
 
