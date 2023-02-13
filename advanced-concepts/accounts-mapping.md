@@ -57,3 +57,5 @@ Whenever the base Substrate account is funded with some units. A new account is 
 During any transaction on the EVM, the funds are used by default from the mapped-Substrate address, the EVM always translates the 20-byte Ethereum address to the deterministically generated SS58 address.
 
 To fund the Ethereum/Substrate account with Faucet on Arctic Testnet, Please refer [**here**](../build/faucet/#funding-substrate-account-with-icz-testnet).&#x20;
+
+> Note that the private key you hold on either Substrate or EVM side will not give access to the corresponding mapped address on EVM or Substrate respectively.
