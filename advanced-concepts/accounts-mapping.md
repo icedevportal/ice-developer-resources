@@ -8,7 +8,7 @@ EVM pallet enables the Ethereum EVM capabilities on a native Substrate chain. To
 
 ### Ethereum / SNOW Address Conversion tool
 
-Head over to the [**SNOW address converter**](https://snow-address-converter.netlify.app/) **** ([_**Source Code**_](https://github.com/sharma66mahesh/ss58-h160-converter-react)) to easily convert your Ethereum address to Substrate/SNOW address and vice versa.
+Head over to the [**SNOW address converter**](https://snow-address-converter.web.app/) **** ([_**Source Code**_](https://github.com/ibriz/snow-address-converter)) to easily convert your Ethereum address to Substrate/SNOW address and vice versa.
 
 Just select the input address format from the dropdown and enter the selected input format address in the input field and click on go. For example:
 
@@ -58,4 +58,4 @@ During any transaction on the EVM, the funds are used by default from the mapped
 
 To fund the Ethereum/Substrate account with Faucet on Arctic Testnet, Please refer [**here**](../build/faucet/#funding-substrate-account-with-icz-testnet).&#x20;
 
-> Note that the private key you hold on either Substrate or EVM side will not give access to the corresponding mapped address on EVM or Substrate respectively.
+> Note that the private key you hold on either Substrate or EVM side will not give you access to the corresponding mapped address on EVM or Substrate respectively.
