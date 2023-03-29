@@ -26,11 +26,11 @@ description: API and free RPC WebSocket endpoints for the ICE community
 | **Network name**   | Arctic Network                                                                         |
 | **Parent chain**   | Rococo                                                                                 |
 | **Parachain ID**   | 3015                                                                                   |
-| **Endpoints**      | <p>https://arctic-rpc.icenetwork.io:9933</p><p>wss://arctic-rpc.icenetwork.io:9944</p> |
+| **Endpoints**      | <p>https://arctic-rpc.icenetwork.io:9932</p><p>wss://arctic-rpc.icenetwork.io:9944</p> |
 | **Chain ID**       | 553                                                                                    |
 | **Address Prefix** | 2208                                                                                   |
 | **Symbol**         | ICZ                                                                                    |
-| **EVM RPC**        | https://arctic-rpc.icenetwork.io:9933                                                  |
+| **EVM RPC**        | https://arctic-rpc.icenetwork.io:9932                                                  |
 {% endtab %}
 
 {% tab title="ICE Network" %}
